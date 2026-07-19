@@ -7,41 +7,27 @@ nav: true
 nav_order: 4
 ---
 
-{% if site.data.repositories.github_users %}
+## Profile
 
-## GitHub users
-
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for user in site.data.repositories.github_users %}
-    {% include repository/repo_user.liquid username=user %}
-  {% endfor %}
-</div>
+[![vikasudasi](https://github.com/vikasudasi.png?size=40)](https://github.com/vikasudasi)  **[/vikasudasi](https://github.com/vikasudasi)** — AI & Cloud Architecture, Engineering Leadership
 
 ---
 
-{% if site.repo_trophies.enabled %}
-{% for user in site.data.repositories.github_users %}
-{% if site.data.repositories.github_users.size > 1 %}
+## Repositories
 
-  <h4>{{ user }}</h4>
-  {% endif %}
-  <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% include repository/repo_trophies.liquid username=user %}
-  </div>
+| Repository | Description |
+|------------|-------------|
+| [vikasudasi.github.io](https://github.com/vikasudasi/vikasudasi.github.io) | Personal portfolio & open-source AI agent projects |
+| [my-agent-project](https://github.com/vikasudasi/my-agent-project) | Multi-agent task management system with CLI, MCP, and dashboard |
+| [my-agent](https://github.com/vikasudasi/my-agent) | Personal macOS deep agent for terminal automation |
+| [my-agent-voice](https://github.com/vikasudasi/my-agent-voice) | Voice layer for my-agent — speak to your terminal agent |
+| [context-aware-rag](https://github.com/vikasudasi/context-aware-rag) | 100% local, privacy-preserving RAG with bilingual OCR |
+| [ai_coding](https://github.com/vikasudasi/ai_coding) | Agent-friendly project structure for AI coding agents |
+| [company-os](https://github.com/vikasudasi/company-os) | AI-native operating system for company workflows |
+| [AI_Travel_agent_Streamlit](https://github.com/vikasudasi/AI_Travel_agent_Streamlit) | AI travel agent built with Streamlit |
+| [console_web_search](https://github.com/vikasudasi/console_web_search) | Web search from your terminal — no browser needed |
+| [restaurant-bot](https://github.com/vikasudasi/restaurant-bot) | Restaurant discovery and recommendation bot |
+| [hello-world](https://github.com/vikasudasi/hello-world) | Hello World |
+| [mycollection](https://github.com/vikasudasi/mycollection) | Personal collection |
 
----
-
-{% endfor %}
-{% endif %}
-{% endif %}
-
-{% if site.data.repositories.github_repos %}
-
-## GitHub Repositories
-
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for repo in site.data.repositories.github_repos %}
-    {% include repository/repo.liquid repository=repo %}
-  {% endfor %}
-</div>
-{% endif %}
+[View all on GitHub →](https://github.com/vikasudasi?tab=repositories)
