@@ -4,6 +4,8 @@ github_users:
 repo_description_lines_max: 3
 
 github_repos:
+  - vikasudasi/pr-classify
+  - vikasudasi/prompt-snapshot
   - vikasudasi/vikasudasi.github.io
   - vikasudasi/my-agent-project
   - vikasudasi/my-agent
