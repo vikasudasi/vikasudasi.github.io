@@ -5,11 +5,9 @@ cv:
   location: Gurgaon, India
   image: ""
   summary: >
-    Chief Technology Officer building AI-first solutions with over a decade of experience
-    across consumer platforms, cybersecurity, and marketplace technology. Blend hands-on
-    technical depth with strategic leadership to deliver scalable, intelligent systems.
-    Previously Director of Engineering at OYO, leading initiatives that accelerated organic
-    growth, improved conversion, and strengthened technical foundations.
+    AI & Cloud Architecture leader at Nielsen Marketing Cloud, building scalable data systems,
+    AI-driven pipelines, and open-source AI agent frameworks. 12+ years architecting scalable
+    platforms and AI systems.
 
   social_networks:
     - network: GitHub
@@ -29,6 +27,19 @@ cv:
         end_date: 2014
 
     Experience:
+      - company: Nielsen
+        position: Tech Leadership (AI & Cloud Architecture)
+        location: Gurgaon, India
+        start_date: 2025-08-01
+        end_date: present
+        summary: >
+          Leading AI & Cloud Architecture at Nielsen Marketing Cloud. Architecting scalable
+          data systems, AI pipelines, and intelligent agent frameworks.
+        highlights:
+          - Architecting AI-driven marketing cloud platforms at scale
+          - Building multi-agent systems and agent-native tooling
+          - Leading cloud architecture and engineering teams
+
       - company: Saathi
         position: Chief Technology Officer
         location: Gurugram, India
@@ -151,6 +162,12 @@ cv:
 
       - name: AI & ML
         keywords: LangChain, GPT-4o, RAG Architecture, MongoDB Vector Search, Sarvam AI (TTS/STT)
+
+      - name: AI Agents & Frameworks
+        keywords: AI Agents, MCP (Model Context Protocol), LangChain, LangGraph, AI Agents Framework, Python
+
+      - name: Developer & Publishing Stack
+        keywords: Jekyll, al-folio, GitHub Pages
 
       - name: Leadership & Strategy
         keywords: Engineering Leadership, Org Design, Strategic Planning, Growth Engineering, Technical SEO, Core Web Vitals
