@@ -2,7 +2,7 @@
 layout: post
 title: "pr-classify: Detect AI-Generated Pull Requests Before They Slip Through"
 description: A CLI tool that analyzes GitHub PRs and tells you whether they were written by a human, an AI assistant, or an autonomous agent — with a structured audit report for reviewers.
-date: 2026-07-20 00:00:00 +0530
+date: 2026-07-19 20:00:00 +0530
 categories: ai open-source tools
 tags: [ai-agents, open-source, cli, developer-tools, python, code-review, github]
 related_posts: false
