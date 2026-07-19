@@ -2,18 +2,18 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <strong>AI & Cloud Architecture</strong> · <strong>Engineering Leadership</strong> · <strong>Open-Source AI Agent Builder</strong> @ Nielsen Marketing Cloud
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>📍 Gurgaon, India</p>
+    <p>⚡ Building deep AI agents & cloud systems</p>
+    <p>🔭 Open-source at <a href="https://github.com/vikasudasi">github.com/vikasudasi</a></p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -27,8 +27,16 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I'm an **AI & Cloud Architecture leader** at Nielsen Marketing Cloud, where I lead teams building scalable data systems, AI-driven pipelines, and the next generation of intelligent agents.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I build **open-source AI agent frameworks** — tools that let developers run deep agents in their terminal, coordinate multi-agent workflows, and keep AI systems on track without drifting. My projects include:
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+- **🧠 [my-agent](https://github.com/vikasudasi/my-agent)** — A personal macOS deep agent that lives in your terminal. Shell tools, file access, MCP integrations, persistent memory, voice as JARVIS, and subagent delegation. Built for developers who want an agent that feels *theirs*.
+
+- **📋 [AI Task Management System](https://github.com/vikasudasi/my-agent-project)** — An open-source framework for multi-agent coordination. Forces agents to define, constrain, and document their own tasks within a shared state. CLI, web dashboard, and MCP server — all backed by a single SQLite database.
+
+I'm deeply interested in **multi-agent systems**, **MCP (Model Context Protocol)**, **agent-native tooling**, and the shift from brute-force AI hardware to algorithmic efficiency.
+
+When I'm not architecting cloud systems or building agents, I'm racing FPV drones, exploring new tech, and contributing to the open-source community.
+
+Let's build something ambitious. 🚀
