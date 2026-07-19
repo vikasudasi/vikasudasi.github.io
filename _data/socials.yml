@@ -3,5 +3,5 @@
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
 email: vikasudasi@gmail.com # your email address
 rss_icon: true # comment this line to hide the RSS icon
-github: vikasudasi
-linkedin: vikasudasi
+github_username: vikasudasi
+linkedin_username: vikasudasi
