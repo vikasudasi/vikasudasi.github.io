@@ -121,8 +121,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Vikas Udasi # blog_name will be displayed in your blog page
+blog_description: AI, cloud architecture, engineering leadership, and open-source agent frameworks
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
