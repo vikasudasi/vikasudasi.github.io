@@ -1,0 +1,18 @@
+- date: 2026-07-20
+  items:
+    - title: "GPT-5.6 closes 30-year complexity gap in convex optimization"
+      source: "ArXiv"
+      url: "https://arxiv.org"
+      summary: "A UC Berkeley researcher used GPT-5.6 Sol Pro with a structured prompt to produce a formally verified Lean proof for a quadratic lower bound in zeroth-order optimization -- open since 1996."
+    - title: "Agent skills ecosystem hits 77K+ stars on GitHub"
+      source: "GitHub Trending"
+      url: "https://github.com/topics/agent-skills"
+      summary: "The agent-skills repo by Addy Osmani gained 1,116 stars in a single day. Microsoft's SkillOpt paper shows skills can be auto-optimized for 2x accuracy."
+    - title: "Moonshine AI speech recognition runs on 80-cent microcontroller"
+      source: "Hacker News"
+      url: "https://news.ycombinator.com"
+      summary: "Moonshine AI's <500KB speech recognition + TTS model hit #3 on HN front page, running on an RP2350 microcontroller."
+    - title: "Multi-model routing economy -- routing decision now worth more than model choice"
+      source: "AI News"
+      url: "https://venturebeat.com/ai"
+      summary: "With 15+ viable models, the key optimization is routing the right task to the right model. Gemini Flash scores 97% at $0.003/run on suitable tasks."
