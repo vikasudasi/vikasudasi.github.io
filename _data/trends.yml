@@ -16,3 +16,17 @@
       source: "AI News"
       url: "https://venturebeat.com/ai"
       summary: "With 15+ viable models, the key optimization is routing the right task to the right model. Gemini Flash scores 97% at $0.003/run on suitable tasks."
+- date: 2026-07-20
+  items:
+    - title: "Harness Engineering > Prompt Engineering — agent runtime is now the bottleneck"
+      source: "AI Engineer World's Fair / Latent Space"
+      url: "https://www.latent.space"
+      summary: "AI Engineering in 2026 runs on Harnesses, Not Prompts. Grok Build (xAI) open-sourced its coding agent CLI. The question is no longer 'can the model reason?' but 'what is the harness allowed to do between user turns?'"
+    - title: "Open-weight models now carry majority of production AI traffic"
+      source: "TechCrunch"
+      url: "https://techcrunch.com"
+      summary: "OpenRouter's top 5 models are all open-weight. Chinese open-weight models account for 41% of HuggingFace downloads. Kimi K3 dropped as the largest open model ever — yet no tool exists to test models on your own prompts."
+    - title: "Token cost crisis driving deterministic hybrid workflows"
+      source: "ArXiv / Compiled AI paper"
+      url: "https://arxiv.org/abs/2604.05150"
+      summary: "The Compiled AI paper showed 57× token reduction by moving deterministic steps out of LLM calls. Developers need tools to profile their agent scripts and identify which LLM calls can be safely replaced."

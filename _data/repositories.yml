@@ -4,6 +4,7 @@ github_users:
 repo_description_lines_max: 3
 
 github_repos:
+  - vikasudasi/prompt-riser
   - vikasudasi/skill-audit
   - vikasudasi/pr-classify
   - vikasudasi/prompt-snapshot
