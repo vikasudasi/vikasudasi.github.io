@@ -2,7 +2,7 @@
 layout: post
 title: "skill-audit: The First Tool to Manage Your Agent Skills Ecosystem"
 description: A CLI tool that audits, validates, and inventories SKILL.md files across any agent ecosystem — because with 80K+ stars of agent skills, zero management tooling is a gap worth filling.
-date: 2026-07-20 08:30:00 +0530
+date: 2026-07-20 08:00:00 +0530
 categories: ai open-source tools
 tags: [ai-agents, open-source, cli, developer-tools, python, skills, agent-ecosystem]
 related_posts: false
