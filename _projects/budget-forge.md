@@ -8,17 +8,29 @@ github: vikasudasi/budget-forge
 img: /assets/img/projects/budget-forge.png
 ---
 
-# budget-forge
+# Budget Forge
 
-`budget-forge` is a CLI utility for benchmarking reasoning-model thinking budgets and finding the best quality/cost tradeoff.
+**Find the optimal thinking budget for reasoning LLMs — maximize quality per dollar spent.**
 
-## Install
+Budget Forge is a CLI benchmarking tool that sweeps across thinking budgets for reasoning models (DeepSeek R1, Qwen3, Claude Sonnet, o3-mini), measures quality and cost at each level, and identifies the **sweet spot** where you get the most quality per penny.
+
+## Why?
+
+Reasoning models can **think** before they answer — allocating internal "thinking tokens" to reason through a problem. This improves quality, but also costs more. The relationship between thinking budget and response quality is **not linear**:
+
+- **Too few thinking tokens** → the model rushes, quality suffers
+- **Too many thinking tokens** → you burn money on overthinking
+- **Somewhere in between** lies the *sweet spot* — the budget that gives you the best quality-to-cost ratio
+
+Budget Forge makes finding that sweet spot systematic, reproducible, and automated.
+
+## Installation
 
 ```bash
 pip install budget-forge
 ```
 
-Or clone and install from source:
+Or from source:
 
 ```bash
 git clone https://github.com/vikasudasi/budget-forge.git
@@ -28,42 +40,51 @@ pip install -e .
 
 ## Usage
 
+### Basic benchmark
+
 ```bash
 budget-forge test \
-  --prompt "Write a clean Python function to merge N sorted lists" \
-  --budgets 0,512,1024,2048,4096,8192 \
+  --prompt "Explain memoization with an example." \
   --model deepseek-r1
 ```
 
-### Options
+### Custom budgets
 
-| Flag | Description |
-|------|-------------|
-| `--prompt` | The prompt to evaluate |
-| `--prompt-file` | Read prompt from a file |
-| `--budgets` | Comma-separated thinking token budget levels (default: `0,512,1024,2048,4096,8192`) |
-| `--model` | Model to use (`deepseek-r1`, `qwen3`, `claude-sonnet`, `o3-mini`) |
-| `--csv` | Export results to a CSV file |
-| `--reference` | Optional reference answer for exact-match quality scoring |
+```bash
+budget-forge test \
+  --prompt "Write a Python function for merge sort." \
+  --model qwen3 \
+  --budgets 0,512,1024,2048,4096,8192
+```
 
-### Supported Models
+### CSV export
 
-| Model | API Base | Env Var |
-|-------|----------|---------|
-| DeepSeek R1 | `api.deepseek.com` | `DEEPSEEK_API_KEY` |
-| Qwen3 (via OpenRouter) | `api.openrouter.ai` | `OPENROUTER_API_KEY` |
-| Claude Sonnet 4 | `api.anthropic.com` | `ANTHROPIC_API_KEY` |
-| o3-mini | `api.openai.com` | `OPENAI_API_KEY` |
+```bash
+budget-forge test \
+  --prompt "Explain the HTTP protocol." \
+  --model deepseek-r1 \
+  --csv results.csv
+```
 
-### Output
+### Prompt file & reference answer
 
-The tool outputs a rich table with columns: Budget, Thinking Tokens, Total Tokens, Cost, Latency, Quality, Quality/Cost. The budget with the highest quality/cost ratio is highlighted as the "sweet spot".
+```bash
+budget-forge test --prompt-file prompt.txt --model claude-sonnet
+budget-forge test --prompt "What is 2+2?" --reference "4" --model o3-mini
+```
+
+## Supported Models
+
+| Model | CLI flag | API base | Env var |
+|-------|----------|----------|---------|
+| DeepSeek R1 | `deepseek-r1` | `api.deepseek.com` | `DEEPSEEK_API_KEY` |
+| Qwen3 | `qwen3` | `api.openrouter.ai` | `OPENROUTER_API_KEY` |
+| Claude Sonnet | `claude-sonnet` | `api.anthropic.com` | `ANTHROPIC_API_KEY` |
+| o3-mini | `o3-mini` | `api.openai.com` | `OPENAI_API_KEY` |
 
 ## How It Works
 
-For each budget level, budget-forge sends your prompt with the thinking budget parameter specific to each model's API. It records the actual thinking tokens used, total tokens, cost, and latency. Quality is scored by asking the model to self-evaluate its answer on a 1-10 scale, or by exact match against a reference answer if provided.
-
-The sweet spot is the budget where quality per dollar is highest — giving you the best answer for the least cost.
+For each budget level, budget-forge sends your prompt with the thinking budget parameter specific to each model's API. It records thinking tokens, total tokens, cost, and latency. Quality is scored by self-evaluation (1-10) or exact match against a reference answer. The sweet spot is the budget where quality per dollar peaks.
 
 ## License
 

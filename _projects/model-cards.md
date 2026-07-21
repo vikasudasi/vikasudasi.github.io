@@ -10,15 +10,21 @@ img: /assets/img/projects/model-cards.png
 
 # model-cards
 
-CLI reference tool for open-weight AI models. It fetches model card data from the Hugging Face API and presents search, details, and side-by-side comparisons in the terminal.
+**CLI reference tool for open-weight AI models.** Search, inspect, and compare Hugging Face model cards — all from your terminal.
 
-## Install
+## Why?
+
+The open-weight AI model landscape is exploding. Every week brings a new release — Qwen, DeepSeek, Llama, Mistral, Phi, Gemma, and more. Keeping track of their specs (parameters, context window, license, architecture, hardware requirements) across scattered Hugging Face pages is tedious.
+
+`model-cards` brings the Hugging Face model registry to your terminal. One command to search, one to inspect details, one to compare models side-by-side.
+
+## Installation
 
 ```bash
 pip install model-cards
 ```
 
-Or clone and install from source:
+Or from source:
 
 ```bash
 git clone https://github.com/vikasudasi/model-cards.git
@@ -35,27 +41,31 @@ model-cards search qwen
 model-cards search llama --limit 20
 ```
 
-### View Details
+Outputs a rich table with: Model ID, Task, Downloads, Likes, License, Last Updated.
+
+### View details
 
 ```bash
-model-cards show deepseek-v4
+model-cards show Qwen/Qwen2.5-7B-Instruct
 ```
 
-### Compare
+Renders a detailed panel with Overview, Hardware, Specs, Benchmarks, Card Metadata, and Stats sections.
+
+### Compare (up to 4 models)
 
 ```bash
 model-cards compare qwen3-coder kimi-k2.6 deepseek-v4
 ```
 
-### List Trending
+Side-by-side table with the best value in each row highlighted.
+
+### List trending
 
 ```bash
 model-cards list
 ```
 
-### JSON Output
-
-All commands support `--json` for pipeline-friendly consumption:
+### JSON output
 
 ```bash
 model-cards search qwen --json | jq '.[].model_id'
@@ -69,15 +79,21 @@ model-cards search qwen --json | jq '.[].model_id'
 | Task | Pipeline type (text-generation, etc.) |
 | Parameters | Model size (e.g., 7.8B, 235B) |
 | Context Window | Max sequence length (e.g., 128K) |
-| License | Model license (MIT, Apache 2.0, etc.) |
+| License | MIT, Apache 2.0, etc. |
 | Architecture | Model architecture type |
-| Hardware | Estimated RAM requirements (Easy/Moderate/Heavy/Very Heavy) |
+| Hardware | VRAM estimate + rating (Easy/Moderate/Heavy/Very Heavy) |
 | Downloads | Total download count |
 | Likes | HF likes count |
 
 ## Environment
 
 - `HF_TOKEN` — optional Hugging Face token for higher API rate limits
+
+## Tech Stack
+
+- **httpx** — async HTTP client with rate limiting and in-memory caching
+- **rich** — terminal tables, panels, and colored output
+- **argparse** — CLI entry point
 
 ## License
 
