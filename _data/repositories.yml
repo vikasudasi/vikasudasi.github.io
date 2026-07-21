@@ -4,6 +4,7 @@ github_users:
 repo_description_lines_max: 3
 
 github_repos:
+  - vikasudasi/slop-detect
   - vikasudasi/prompt-riser
   - vikasudasi/skill-audit
   - vikasudasi/pr-classify

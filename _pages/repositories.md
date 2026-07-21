@@ -17,7 +17,7 @@ nav_order: 4
 
 | Repository | Description |
 |------------|-------------|
-|| [prompt-riser](https://github.com/vikasudasi/prompt-riser) | CLI that runs prompts through multiple reasoning strategies and visualizes the reasoning paths as a tree |
+|| [slop-detect](https://github.com/vikasudasi/slop-detect) | Privacy-preserving CLI that detects AI-written text using 5 local heuristics — fully offline, no API calls |\n|| [prompt-riser](https://github.com/vikasudasi/prompt-riser) | CLI that runs prompts through multiple reasoning strategies and visualizes the reasoning paths as a tree |
 || [skill-audit](https://github.com/vikasudasi/skill-audit) | CLI that audits, validates, and inventories agent skills (SKILL.md files) across any ecosystem |
 || [pr-classify](https://github.com/vikasudasi/pr-classify) | CLI that detects AI-generated PRs and generates audit reports for human reviewers |
 || [prompt-snapshot](https://github.com/vikasudasi/prompt-snapshot) | Zero-dependency CLI that snapshots project context for AI agent prompts |

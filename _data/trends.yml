@@ -1,3 +1,17 @@
+- date: 2026-07-21
+  items:
+    - title: "Agent swarm economics — Cursor 3's parallel agent model changes cost math"
+      source: "Hacker News"
+      url: "https://news.ycombinator.com"
+      summary: "Multiple AI agents running in parallel at 1,000 commits/sec. Cost modeling changes fundamentally with 5-15 agents working simultaneously. Planner vs worker model separation, new VCS for agents."
+    - title: "AI mathematicians — automated theorem disproof (Claude Fable, Jacobian Conjecture)"
+      source: "Hacker News"
+      url: "https://news.ycombinator.com"
+      summary: "Claude Fable system found a counterexample to the Jacobian Conjecture, proving it false. This marks a new era of AI-assisted mathematical discovery and disproof."
+    - title: "arXiv slop crisis — 65% of CS papers now AI-written"
+      source: "Hacker News / Research"
+      url: "https://arxiv.org"
+      summary: "Study estimates 65% of CS papers on arXiv contain AI-generated text. Growing demand for local, privacy-preserving detection tools that don't require uploading text to cloud services."
 - date: 2026-07-20
   items:
     - title: "GPT-5.6 closes 30-year complexity gap in convex optimization"
