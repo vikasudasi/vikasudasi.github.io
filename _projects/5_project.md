@@ -2,7 +2,7 @@
 layout: page
 title: Saathi BhAI
 description: AI voice assistant for job discovery — GPT-4o, LiveKit, multilingual
-img: assets/img/projects/saathi-bhai.jpg
+img: /assets/img/projects/saathi-bhai.png
 importance: 5
 category: work
 ---

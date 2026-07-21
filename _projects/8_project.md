@@ -2,7 +2,7 @@
 layout: page
 title: console-web-search
 description: Web search from your terminal — no browser needed
-img: assets/img/projects/console-web-search.jpg
+img: /assets/img/projects/console-web-search.png
 importance: 8
 category: work
 github: vikasudasi/console_web_search

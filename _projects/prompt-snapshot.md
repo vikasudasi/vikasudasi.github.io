@@ -2,6 +2,7 @@
 layout: page
 title: prompt-snapshot
 description: CLI that snapshots project structure and file contents for AI agent context
+img: /assets/img/projects/prompt-snapshot.png
 importance: 3
 category: work
 github: vikasudasi/prompt-snapshot

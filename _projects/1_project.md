@@ -2,7 +2,7 @@
 layout: page
 title: my-agent
 description: A personal macOS deep agent that lives in your terminal
-img: assets/img/projects/my-agent.jpg
+img: /assets/img/projects/my-agent.png
 importance: 1
 category: work
 github: vikasudasi/my-agent

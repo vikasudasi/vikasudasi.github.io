@@ -2,7 +2,7 @@
 layout: page
 title: AI Task Management System
 description: Multi-agent coordination framework for deep agents
-img: assets/img/projects/my-agent-project.jpg
+img: /assets/img/projects/my-agent-project.png
 importance: 2
 category: work
 github: vikasudasi/my-agent-project

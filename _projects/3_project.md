@@ -2,7 +2,7 @@
 layout: page
 title: Context-Aware RAG
 description: 100% local, privacy-preserving RAG that maps territory before searching
-img: assets/img/projects/context-aware-rag.jpg
+img: /assets/img/projects/context-aware-rag.png
 importance: 3
 category: work
 github: vikasudasi/context-aware-rag

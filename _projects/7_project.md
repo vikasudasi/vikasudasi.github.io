@@ -2,7 +2,7 @@
 layout: page
 title: company-os
 description: AI-native operating system for company workflows
-img: assets/img/projects/company-os.jpg
+img: /assets/img/projects/company-os.png
 importance: 7
 category: work
 github: vikasudasi/company-os

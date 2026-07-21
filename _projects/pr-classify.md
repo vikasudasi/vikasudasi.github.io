@@ -2,6 +2,7 @@
 layout: page
 title: pr-classify
 description: CLI that detects AI-generated PRs and generates audit reports for human reviewers
+img: /assets/img/projects/pr-classify.png
 importance: 1
 category: work
 github: vikasudasi/pr-classify

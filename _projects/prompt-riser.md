@@ -2,6 +2,7 @@
 layout: page
 title: prompt-riser
 description: "CLI that runs prompts through multiple reasoning strategies and visualizes the reasoning paths as a tree"
+img: /assets/img/projects/prompt-riser.png
 importance: 1
 category: work
 github: vikasudasi/prompt-riser

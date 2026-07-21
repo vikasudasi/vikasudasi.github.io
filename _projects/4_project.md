@@ -2,7 +2,7 @@
 layout: page
 title: AI Coding Boilerplate
 description: Agent-friendly project structure for humans and AI coding agents
-img: assets/img/projects/ai_coding.jpg
+img: /assets/img/projects/ai_coding.png
 importance: 4
 category: work
 github: vikasudasi/ai_coding

@@ -2,6 +2,7 @@
 layout: page
 title: skill-audit
 description: CLI that audits, validates, and inventories agent skills (SKILL.md files) across any ecosystem
+img: /assets/img/projects/skill-audit.png
 importance: 2
 category: work
 github: vikasudasi/skill-audit
