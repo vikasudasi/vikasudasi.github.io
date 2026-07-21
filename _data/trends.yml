@@ -1,5 +1,27 @@
 - date: 2026-07-21
   items:
+    - title: "China's open-weights AI strategy is winning"
+      source: "Hacker News (#1, 659 pts)"
+      url: "https://news.ycombinator.com"
+      summary: "Open-weight models (Qwen 3.8, Kimi K3) beating proprietary AI in global adoption — the open-weight model explosion is reshaping the industry."
+    - title: "Controlling Reasoning Effort in LLMs — the 'thinking budget' knob"
+      source: "Hacker News / Research"
+      url: "https://news.ycombinator.com"
+      summary: "Sebastian Raschka on the new thinking budget parameter in modern reasoning models. Budget Guidance paper shows up to 26% accuracy gain under tight budgets."
+    - title: "Agent swarms and the new model economics"
+      source: "Cursor Blog"
+      url: "https://cursor.com"
+      summary: "Multi-agent parallelism changing cost models — 5-15 agents working simultaneously, planner vs worker model separation."
+    - title: "Kimi K3, Qwen 3.8, and the open-weight pricing war"
+      source: "Hacker News (#16, 216 pts)"
+      url: "https://news.ycombinator.com"
+      summary: "Open-weight models competing directly with closed-source flagships — 20+ viable models, GLM-5.2, DeepSeek V4, Kimi K2.6, Qwen3-Coder-Next, MiniMax M3 all rushing out."
+    - title: "Kimi Work — AI-powered work platform"
+      source: "Hacker News (#2, 172 pts)"
+      url: "https://news.ycombinator.com"
+      summary: "Moonshot launches a scheduled AI productivity platform, signaling the shift to automated AI workflows on cron-like schedules."
+- date: 2026-07-21
+  items:
     - title: "Agent swarm economics — Cursor 3's parallel agent model changes cost math"
       source: "Hacker News"
       url: "https://news.ycombinator.com"

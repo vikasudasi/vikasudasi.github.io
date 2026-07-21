@@ -17,10 +17,13 @@ nav_order: 4
 
 | Repository | Description |
 |------------|-------------|
-|| [slop-detect](https://github.com/vikasudasi/slop-detect) | Privacy-preserving CLI that detects AI-written text using 5 local heuristics — fully offline, no API calls |\n|| [prompt-riser](https://github.com/vikasudasi/prompt-riser) | CLI that runs prompts through multiple reasoning strategies and visualizes the reasoning paths as a tree |
-|| [skill-audit](https://github.com/vikasudasi/skill-audit) | CLI that audits, validates, and inventories agent skills (SKILL.md files) across any ecosystem |
-|| [pr-classify](https://github.com/vikasudasi/pr-classify) | CLI that detects AI-generated PRs and generates audit reports for human reviewers |
-|| [prompt-snapshot](https://github.com/vikasudasi/prompt-snapshot) | Zero-dependency CLI that snapshots project context for AI agent prompts |
+| [budget-forge](https://github.com/vikasudasi/budget-forge) | CLI that finds the optimal thinking budget for reasoning LLMs — test prompts at multiple budget levels and generate cost-vs-quality tradeoff curves |
+| [model-cards](https://github.com/vikasudasi/model-cards) | CLI reference tool for the open-weight AI model explosion — search, view, and compare model cards from Hugging Face in your terminal |
+| [slop-detect](https://github.com/vikasudasi/slop-detect) | Privacy-preserving CLI that detects AI-written text using 5 local heuristics — fully offline, no API calls |
+| [prompt-riser](https://github.com/vikasudasi/prompt-riser) | CLI that runs prompts through multiple reasoning strategies and visualizes the reasoning paths as a tree |
+| [skill-audit](https://github.com/vikasudasi/skill-audit) | CLI that audits, validates, and inventories agent skills (SKILL.md files) across any ecosystem |
+| [pr-classify](https://github.com/vikasudasi/pr-classify) | CLI that detects AI-generated PRs and generates audit reports for human reviewers |
+| [prompt-snapshot](https://github.com/vikasudasi/prompt-snapshot) | Zero-dependency CLI that snapshots project context for AI agent prompts |
 | [vikasudasi.github.io](https://github.com/vikasudasi/vikasudasi.github.io) | Personal portfolio & open-source AI agent projects |
 | [my-agent-project](https://github.com/vikasudasi/my-agent-project) | Multi-agent task management system with CLI, MCP, and dashboard |
 | [my-agent](https://github.com/vikasudasi/my-agent) | Personal macOS deep agent for terminal automation |
