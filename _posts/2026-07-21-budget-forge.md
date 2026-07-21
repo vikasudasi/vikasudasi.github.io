@@ -5,7 +5,7 @@ date:   2026-07-21 08:00:00 +0530
 categories: work
 ---
 
-![budget-forge](/assets/img/projects/budget-forge.png)
+{% include figure.liquid path="/assets/img/projects/budget-forge.png" class="img-fluid rounded z-depth-1" %}
 
 When reasoning models like DeepSeek R1, Qwen3, and Claude Sonnet let you control how much they "think" before answering, the question becomes: **how much thinking is enough?**
 

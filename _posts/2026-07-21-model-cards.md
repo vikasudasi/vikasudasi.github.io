@@ -5,7 +5,7 @@ date:   2026-07-21 08:30:00 +0530
 categories: work
 ---
 
-![model-cards](/assets/img/projects/model-cards.png)
+{% include figure.liquid path="/assets/img/projects/model-cards.png" class="img-fluid rounded z-depth-1" %}
 
 There are now **20+ viable open-weight models** competing for your attention — Qwen 3.8, DeepSeek V4, Kimi K2.6, GLM-5.2, MiniMax M3, and more releasing every week. Keeping track of who has what context window, which license each uses, and how much hardware you need to run them is a full-time research job.
 

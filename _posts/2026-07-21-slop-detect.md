@@ -7,7 +7,7 @@ tags: [ai, cli, open-source, python, privacy]
 categories: [projects]
 ---
 
-![slop-detect](/assets/img/projects/slop-detect.png)
+{% include figure.liquid path="/assets/img/projects/slop-detect.png" class="img-fluid rounded z-depth-1" %}
 
 The **arXiv slop crisis** is real. A 2026 study estimates that 65% of CS papers on arXiv are now AI-written. And it's not just academia — AI-generated content is flooding blogs, marketing copy, product reviews, and social media.
 
