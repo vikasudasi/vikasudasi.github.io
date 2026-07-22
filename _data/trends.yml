@@ -1,3 +1,17 @@
+- date: 2026-07-22
+  items:
+    - title: "AI Cybersecurity Boom — Gemini 3.5 Flash Cyber, CodeMender, GPT5.6 finding WordPress RCEs"
+      source: "Hacker News / Google"
+      url: "https://news.ycombinator.com"
+      summary: "Google drops Gemini 3.5 Flash Cyber (fine-tuned for vulnerability detection) paired with CodeMender multi-agent security system. GPT5.6 found WordPress RCEs with $25. Security defense AND offense accelerating."
+    - title: "Open-Weight Image Gen Hits Prime Time — Qwen-Image-3.0"
+      source: "Hacker News (#1, 504 pts)"
+      url: "https://news.ycombinator.com"
+      summary: "Qwen-Image-3.0 lands at #1 on HN. Real text rendering, layout control, multilingual support — on par with DALL-E 3, Apache 2.0 licensed. Open image gen (FLUX.2, SD 3.5, Qwen) now seriously competes with closed systems."
+    - title: "Jack Dorsey's Buzz — open-source team chat + AI agents + Git hosting"
+      source: "Hacker News (122 pts)"
+      url: "https://news.ycombinator.com"
+      summary: "Dorsey's viral post: 'I've shifted from telling agents what to do, to asking them what to do.' Kimi Work (630 HN pts) also launched. The entire dev workflow is being rethought around AI agents."
 - date: 2026-07-21
   items:
     - title: "China's open-weights AI strategy is winning"
