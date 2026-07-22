@@ -17,6 +17,7 @@ nav_order: 4
 
 | Repository | Description |
 |------------|-------------|
+| [readme2skill](https://github.com/vikasudasi/readme2skill) | CLI that reads your README and docs to auto-generate agent skill definitions (SKILL.md) — compatible with Claude Code, Codex, Cursor, and Gemini CLI |
 | [vuln-seeker](https://github.com/vikasudasi/vuln-seeker) | CLI code security scanner — detects vulnerabilities with 25+ regex patterns and optional AI-powered triage, with JSON/Markdown reports and CI mode |
 | [budget-forge](https://github.com/vikasudasi/budget-forge) | CLI that finds the optimal thinking budget for reasoning LLMs — test prompts at multiple budget levels and generate cost-vs-quality tradeoff curves |
 | [model-cards](https://github.com/vikasudasi/model-cards) | CLI reference tool for the open-weight AI model explosion — search, view, and compare model cards from Hugging Face in your terminal |
