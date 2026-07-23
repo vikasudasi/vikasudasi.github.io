@@ -1,3 +1,9 @@
+- date: 2026-07-23
+  items:
+    - title: "Format clause research — 'Reply with JSON only' changes which answers LLMs choose"
+      source: "ArXiv (July 2026)"
+      url: "https://arxiv.org"
+      summary: "A study across 44 models proves that format constraints like 'Reply with JSON only' systematically bias model answers, with convergence increasing from 41% to 64%. Prompt engineers can no longer treat format as cosmetic."
 - date: 2026-07-22
   items:
     - title: "AI Cybersecurity Boom — Gemini 3.5 Flash Cyber, CodeMender, GPT5.6 finding WordPress RCEs"
