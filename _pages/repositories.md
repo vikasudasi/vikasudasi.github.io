@@ -17,6 +17,7 @@ nav_order: 4
 
 | Repository | Description |
 |------------|-------------|
+| [cache-smith](https://github.com/vikasudasi/cache-smith) | CLI that analyzes your prompts for KV cache potential and simulates semantic caching with local embeddings — benchmark savings before buying the gateway |
 | [llm-context-fmt](https://github.com/vikasudasi/llm-context-fmt) | CLI that reveals how format constraints (JSON, XML, Markdown, plain text) systematically bias LLM outputs — based on July 2026 ArXiv research |
 | [readme2skill](https://github.com/vikasudasi/readme2skill) | CLI that reads your README and docs to auto-generate agent skill definitions (SKILL.md) — compatible with Claude Code, Codex, Cursor, and Gemini CLI |
 | [vuln-seeker](https://github.com/vikasudasi/vuln-seeker) | CLI code security scanner — detects vulnerabilities with 25+ regex patterns and optional AI-powered triage, with JSON/Markdown reports and CI mode |
