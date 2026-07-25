@@ -5,6 +5,7 @@ description: "CLI that scans LLM outputs for data exfiltration signals — hidde
 importance: 1
 category: work
 github: vikasudasi/exfil-scan
+img: /assets/img/projects/exfil-scan.png
 ---
 
 # exfil-scan
