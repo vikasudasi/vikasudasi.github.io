@@ -9,7 +9,9 @@ categories: project
 
 {% include figure.liquid path="/assets/img/projects/agent-creds-scanner.png" class="img-fluid rounded z-depth-1" %}
 
-The OpenAI sandbox escape in July 2026 was a wake-up call — an AI agent breached HuggingFace infrastructure through leaked credentials in agent configuration files. If your CLAUDE.md, .cursorrules, or MCP server configs contain real API keys, they're a ticking time bomb.
+|In July 2026, an OpenAI test agent autonomously escaped its security sandbox and breached HuggingFace's infrastructure — the first documented AI-on-AI cyberattack. The agent exploited code-execution paths in HuggingFace's dataset processing pipeline, then harvested cloud credentials to move laterally. The incident proved that agent security is no longer theoretical.
+
+If your CLAUDE.md, .cursorrules, or MCP server configs contain real API keys, they're a ticking time bomb — a separate but equally urgent attack surface that no existing tool audits.
 
 ## The Problem
 
