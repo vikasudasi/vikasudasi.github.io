@@ -17,6 +17,7 @@ nav_order: 4
 
 | Repository | Description |
 |------------|-------------|
+| [agent-creds-scanner](https://github.com/vikasudasi/agent-creds-scanner) | CLI that scans AI agent config files (CLAUDE.md, .cursorrules, MCP configs) for hardcoded credentials before they leak |
 | [cache-smith](https://github.com/vikasudasi/cache-smith) | CLI that analyzes your prompts for KV cache potential and simulates semantic caching with local embeddings — benchmark savings before buying the gateway |
 | [llm-context-fmt](https://github.com/vikasudasi/llm-context-fmt) | CLI that reveals how format constraints (JSON, XML, Markdown, plain text) systematically bias LLM outputs — based on July 2026 ArXiv research |
 | [readme2skill](https://github.com/vikasudasi/readme2skill) | CLI that reads your README and docs to auto-generate agent skill definitions (SKILL.md) — compatible with Claude Code, Codex, Cursor, and Gemini CLI |
