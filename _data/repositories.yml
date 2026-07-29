@@ -4,6 +4,7 @@ github_users:
 repo_description_lines_max: 3
 
 github_repos:
+  - vikasudasi/mcp-app-suite
   - vikasudasi/agent-creds-scanner
   - vikasudasi/mcp-scan
   - vikasudasi/cache-smith
