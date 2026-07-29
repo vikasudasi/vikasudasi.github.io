@@ -17,6 +17,7 @@ nav_order: 4
 
 | Repository | Description |
 |------------|-------------|
+| [no-slop](https://github.com/vikasudasi/no-slop) | CLI that scans your codebase for AI slop patterns and generates constraint files (SKILL.md, .cursorrules, CLAUDE.md, .clinerules) for Claude Code, Cursor, Codex, and Gemini CLI |
 | [mcp-app-suite](https://github.com/vikasudasi/mcp-app-suite) | MCP Apps development suite: playground to preview interactive HTML UIs, scaffolder to scaffold new projects, and demo server with 3 sample apps |
 | [agent-creds-scanner](https://github.com/vikasudasi/agent-creds-scanner) | CLI that scans AI agent config files (CLAUDE.md, .cursorrules, MCP configs) for hardcoded credentials before they leak |
 | [cache-smith](https://github.com/vikasudasi/cache-smith) | CLI that analyzes your prompts for KV cache potential and simulates semantic caching with local embeddings — benchmark savings before buying the gateway |
