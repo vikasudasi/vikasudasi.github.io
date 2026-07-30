@@ -311,3 +311,45 @@
     source: Hacker News (#16, 51 pts)
     url: https://docs.pytorch.org/devlogs/compiler/2026-07-25-pytorch-a-reference-language/
     summary: PyTorch published a position paper arguing it should serve as a reference language for AI systems, sparking debate on whether Python/PyTorch is the right abstraction layer for end-to-end AI compilation.
+- date: 2026-07-30
+  items:
+  - title: OpenAI Codex Security open-sourced — CLI/SDK for automated vulnerability scanning
+    source: 'Hacker News (#9, 534 pts, 192 comments)'
+    url: https://github.com/openai/codex-security
+    summary: OpenAI released Codex Security as an open-source CLI and TypeScript SDK that scans repositories, builds threat models, validates vulnerabilities in sandboxed environments, and surfaces fixes for human review — marking security as a flagship Codex use case.
+  - title: AI worms self-propagate through Microsoft Copilot for Word — two mitigations failed
+    source: 'HN (#2, 73 pts)'
+    url: https://enklypesalt.com/posts/context-collapse-part3-ai-worming-through-word
+    summary: Researcher Håkon Måløy's "Context Collapse Part 3" shows document-borne AI worms embedding malicious instructions in Word files that alter financial figures and copy attacks into new documents via Copilot — still reproducible on GPT-5.6 after two failed Microsoft mitigation attempts over 144 days.
+  - title: 'OpenMontage hits 43.7K★ — world''s first open-source agentic video production system'
+    source: GitHub Trending
+    url: https://github.com/calesthio/OpenMontage
+    summary: OpenMontage turned AI coding assistants into full video production studios with 12 pipelines, 100+ tools, and 700+ agent skills — #1 GitHub repo of Week 26, now at 43.7K stars.
+  - title: OmniRoute — free MIT AI gateway unifies 268+ providers under one endpoint
+    source: GitHub Trending
+    url: https://github.com/diegosouzapw/OmniRoute
+    summary: One endpoint connecting 268+ providers and 500+ models with quota-aware auto-fallback, RTK+Caveman compression (15-95% savings), MCP/A2A support, Desktop/PWA — 1,648 daily stars, built by 500+ contributors.
+  - title: Orca ADE by stablyai crosses 31K★ — parallel agent orchestration goes mainstream
+    source: GitHub Trending
+    url: https://github.com/stablyai/orca
+    summary: YC-backed Agent Development Environment for running fleets of coding agents in parallel git worktrees added 22.5K stars this month alone, reflecting the shift from single-agent to multi-agent coding workflows.
+  - title: Claude Opus 5 lands as Anthropic's fourth new model in two months
+    source: Multiple / Agentic AI News
+    url: https://www.anthropic.com/news/claude-opus-5
+    summary: Released Jul 24 at $5/$25 per M tokens, Claude Opus 5 delivers near-Fable 5 frontier intelligence at half the price with a new effort dial for cost/capability tradeoffs across API, Claude.ai, Code, and Cowork.
+  - title: DeepSeek V4 legacy API aliases fully retired after July 24 deadline
+    source: DeepSeek API Docs
+    url: https://api-docs.deepseek.com/updates
+    summary: deepseek-chat and deepseek-reasoner permanently stopped working July 24 at 15:59 UTC — all traffic now maps to deepseek-v4-flash with new architecture, response structure, and pricing model.
+  - title: SpecForge — platform for authoring formal specifications lands on HN
+    source: Hacker News (#4)
+    url: https://docs.imiron.io/v/0.5.10/en/tour.html
+    summary: A formal specification authoring platform gaining traction as AI agents increasingly need structured behavioral contracts rather than natural-language instructions.
+  - title: Exposed system prompts repo breaks down guardrails of top AI models
+    source: GitHub Trending
+    url: https://github.com/stablyai/orca
+    summary: stablyai/orca also hosts extracted system prompts from Claude Fable 5, Opus 4.8, GPT-5.6, Gemini 3.5 Flash, Grok, Cursor, Copilot, and more — a canonical reference for understanding model behavior guardrails.
+  - title: Kimi K3 2.8T open weights available day-0 on Together AI and Modal
+    source: Hacker News (ongoing)
+    url: https://huggingface.co/moonshotai/Kimi-K3
+    summary: Moonshot AI's record-breaking open-weight model with 1M context window now available for self-hosting and via hosted inference partners — the largest open model ever released.
