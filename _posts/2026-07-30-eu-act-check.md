@@ -13,6 +13,54 @@ On **August 2, 2026** — three days from today — the EU AI Act's Article 50 t
 
 Most teams I've talked to have no tooling for this. They know *about* the requirements but can't actually *check* their content. So I built one.
 
+## Why This Act Exists
+
+The EU AI Act was first proposed in April 2021, but its transparency provisions were **dramatically expanded after ChatGPT launched in late 2022**. The sudden ability for anyone to generate text, images, audio, and video — indistinguishable from human-created content — at near-zero cost changed the risk landscape overnight.
+
+Article 50 sits at the heart of the Act's response. Its stated objectives:
+
+- **Reduce risks of impersonation, deception, and manipulation** at scale
+- **Safeguard democratic processes and public trust** by making synthetic content detectable
+- **Give individuals the ability to distinguish** AI-generated content from human-created content
+
+The official guidelines describe this as protecting the "integrity of the information ecosystem" — a direct response to deepfake election interference campaigns, AI-generated misinformation, and the collapse of trust in online content.
+
+## Who It Applies To
+
+Article 50 is the **broadest provision in the entire AI Act**. It does not require "high-risk" classification — it applies automatically to four situations:
+
+| # | Situation | Who Must Act |
+|---|---|---|
+| 1 | **AI interacting with people** (chatbots, voice assistants, AI agents, social-media bots) | Providers must design systems to disclose AI nature |
+| 2 | **AI generating synthetic content** (text, images, audio, video — tools like ChatGPT, Midjourney, ElevenLabs) | Providers must mark outputs in machine-readable format |
+| 3 | **Emotion recognition / biometric categorisation** | Deployers must inform exposed individuals |
+| 4 | **Deepfakes + AI-generated text on public-interest matters** (news articles, government communications, reports) | Deployers must label content as AI-generated |
+
+**Two groups are caught:**
+
+1. **Providers** — companies that *build* AI systems (OpenAI, Google, Adobe, Meta)
+2. **Deployers** — any person, company, organisation, or public authority that *uses* AI systems to generate content and makes it available
+
+The guidelines explicitly state this covers **existing AI systems already on the market** — no grandfather clause. Even open-source AI systems are not exempt.
+
+## Why This Matters for Large Organisations
+
+A company can have **zero** high-risk AI and still be fully on the hook:
+
+- Marketing team uses ChatGPT for ad copy → Article 50(2) applies
+- Customer service runs a chatbot → Article 50(1) applies
+- Editorial team publishes AI-assisted reports → Article 50(4) applies
+- Media team modifies product images with AI → Article 50(4) applies
+- Engineering uses AI coding assistants → Article 50(1) applies to the provider, but deployer obligations may also be triggered depending on use
+
+According to the EU AI Act Compliance Checker data, transparency obligations under Article 50 are the **second most common compliance trigger** across all responding organisations — affecting ~33% of them.
+
+### Penalties
+
+Article 50 carries fines up to **€7.5 million or 1.5% of global annual turnover**, whichever is higher. (Separate from the Act's broader prohibited-practices penalties of up to €35M or 7%.)
+
+The August 2 deadline gives no grace period for content already generated. If your org has been producing AI-generated content for months without C2PA manifests or disclosure statements — every piece of that content is out of compliance from day one.
+
 ## What It Does
 
 `eu-act-check` scans a directory tree and reports per-file compliance status. Three detection layers:
