@@ -1,10 +1,13 @@
 ---
 tags: ai-security prompt-injection document-scanner
+layout: post
 title: "doc-inject-guard: Detecting Prompt Injection in Documents Before They Reach Your AI"
+date: 2026-08-01 22:00:00 +0530
 description: The Context Collapse AI worm proved malicious instructions in Word docs can alter Copilot's financial data. I built a CLI that scans DOCX, PDF, MD, and HTML for injection payloads before they hit your agent pipeline.
 image:
   path: /assets/img/projects/doc-inject-guard.png
   alt: "A document scanner with a magnifying glass revealing hidden text — doc-inject-guard thumbnail"
+categories: project
 ---
 
 The Context Collapse AI worm made headlines this summer — and for good reason. Researchers demonstrated malicious instructions hidden inside Word documents that could alter financial data via Microsoft Copilot, exfiltrate sensitive information, and even self-propagate to new documents. It worked through *two* mitigation patches. EchoLeak CVE-2025-32711 (CVSS 9.3) proved it's not just a lab curiosity — zero-click prompt injection via hidden text is being actively exploited.

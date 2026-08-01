@@ -1,10 +1,13 @@
 ---
 tags: knowledge-graph neo4j llm ai-agents memory vector-search
+layout: post
 title: "agent-knowledge-graph: Persistent Graph Memory for AI Agents"
+date: 2026-08-01 22:00:00 +0530
 description: I built a local-first memory system that stores agent sessions in Neo4j, extracts structured knowledge via LLM, and enables semantic recall — all running on your own machine with zero API costs for embeddings.
 image:
   path: /assets/img/projects/agent-knowledge-graph.png
   alt: "A conceptual knowledge graph of interconnected nodes — agent-knowledge-graph thumbnail"
+categories: project
 ---
 
 Your AI agent has no memory between sessions. Not really.
