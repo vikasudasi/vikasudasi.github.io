@@ -52,7 +52,6 @@
         return sel.value === 'newest' ? db.localeCompare(da) : da.localeCompare(db);
       });
       sections.forEach(function (el) { container.appendChild(el); });
-      // Remove then re-create pagination
       var oldCtl = container.querySelector('.paginate-controls');
       if (oldCtl) oldCtl.remove();
       initPagination('trends-container', '[data-date]', 3);
@@ -70,8 +69,9 @@
 
     function reorder() {
       var cards = Array.prototype.slice.call(
-        container.querySelectorAll('.project-card')
+        container.querySelectorAll('[data-importance]')
       );
+      if (cards.length === 0) return;
       cards.sort(function (a, b) {
         if (sel.value === 'importance') {
           return (parseInt(a.getAttribute('data-importance')) || 99) -
@@ -86,7 +86,7 @@
       cards.forEach(function (el) { container.appendChild(el); });
       var oldCtl = container.querySelector('.paginate-controls');
       if (oldCtl) oldCtl.remove();
-      initPagination('projects-container', '.project-card', 12);
+      initPagination('projects-container', '[data-importance]', 12);
     }
     sel.addEventListener('change', reorder);
     reorder();

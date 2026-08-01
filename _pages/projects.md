@@ -24,15 +24,16 @@ horizontal: false
   </div>
 </div>
 
-<div class="projects">
+<div class="projects" id="projects-container">
 {% if site.enable_project_categories and page.display_categories %}
-  <div id="projects-container">
+  <!-- Display categorized projects -->
   {% for category in page.display_categories %}
   <a id="{{ category }}" href=".#{{ category }}">
     <h2 class="category">{{ category }}</h2>
   </a>
   {% assign categorized_projects = site.projects | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
+  <!-- Generate cards for each project -->
   {% if page.horizontal %}
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2">
@@ -49,15 +50,17 @@ horizontal: false
   </div>
   {% endif %}
   {% endfor %}
-  </div>
 
 {% else %}
 
 <!-- Display projects without categories -->
+
 {% assign sorted_projects = site.projects | sort: "importance" %}
 
-<div id="projects-container">
+  <!-- Generate cards for each project -->
+
 {% if page.horizontal %}
+
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2">
     {% for project in sorted_projects %}
@@ -72,6 +75,19 @@ horizontal: false
     {% endfor %}
   </div>
   {% endif %}
-</div>
 {% endif %}
 </div>
+
+{% assign sorted_projects_all = site.projects | sort: "importance" %}
+<script>
+(function() {
+  // Inject data attributes into the rendered project cards for JS sorting
+  var cards = document.querySelectorAll('.projects .col');
+  {% for proj in sorted_projects_all %}
+    if (cards[{{ forloop.index0 }}]) {
+      cards[{{ forloop.index0 }}].setAttribute('data-importance', '{{ proj.importance }}');
+      cards[{{ forloop.index0 }}].setAttribute('data-title', '{{ proj.title | escape }}');
+    }
+  {% endfor %}
+})();
+</script>
