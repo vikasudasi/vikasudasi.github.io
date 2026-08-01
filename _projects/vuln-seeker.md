@@ -2,7 +2,7 @@
 layout: page
 title: vuln-seeker
 description: "CLI code security scanner — detects vulnerabilities with 25+ regex patterns and optional AI-powered triage, with JSON/Markdown reports and CI mode"
-importance: 1
+importance: 4
 category: work
 github: vikasudasi/vuln-seeker
 img: /assets/img/projects/vuln-seeker.png

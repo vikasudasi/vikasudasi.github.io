@@ -4,7 +4,7 @@ title: agent-knowledge-graph
 description: "CLI + Python library for persistent graph-based memory for AI agents. Ingests sessions into Neo4j, extracts entities via LLM, embeds locally with sentence-transformers, and supports semantic/traversal/NL→Cypher queries via 4 agent adapters."
 img: /assets/img/projects/agent-knowledge-graph.png
 redirect: https://github.com/vikasudasi/agent-knowledge-graph
-importance: 4
+importance: 1
 category: work
 related_publications: false
 ---
