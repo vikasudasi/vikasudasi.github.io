@@ -25,6 +25,7 @@ nav_order: 4
 | [llm-context-fmt](https://github.com/vikasudasi/llm-context-fmt) | CLI that reveals how format constraints (JSON, XML, Markdown, plain text) systematically bias LLM outputs — based on July 2026 ArXiv research |
 | [readme2skill](https://github.com/vikasudasi/readme2skill) | CLI that reads your README and docs to auto-generate agent skill definitions (SKILL.md) — compatible with Claude Code, Codex, Cursor, and Gemini CLI |
 | [vuln-seeker](https://github.com/vikasudasi/vuln-seeker) | CLI code security scanner — detects vulnerabilities with 25+ regex patterns and optional AI-powered triage, with JSON/Markdown reports and CI mode |
+| [doc-inject-guard](https://github.com/vikasudasi/doc-inject-guard) | CLI that scans documents (DOCX, PDF, MD, HTML) for hidden prompt injection payloads — 5 detection modules, risk scoring, CI integration |
 | [budget-forge](https://github.com/vikasudasi/budget-forge) | CLI that finds the optimal thinking budget for reasoning LLMs — test prompts at multiple budget levels and generate cost-vs-quality tradeoff curves |
 | [model-cards](https://github.com/vikasudasi/model-cards) | CLI reference tool for the open-weight AI model explosion — search, view, and compare model cards from Hugging Face in your terminal |
 | [slop-detect](https://github.com/vikasudasi/slop-detect) | Privacy-preserving CLI that detects AI-written text using 5 local heuristics — fully offline, no API calls |
