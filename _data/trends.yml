@@ -1,3 +1,45 @@
+- date: 2026-08-02
+  items:
+  - title: EU AI Act High-Risk Provisions Enforceable Today — Article 50 Goes Live
+    source: European Commission / Multiple
+    url: https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august
+    summary: The EU AI Act's high-risk system rules and Article 50 transparency obligations take effect Aug 2, requiring chatbots to disclose AI identity, deepfakes to be labeled, and AI Office enforcement powers to activate — fines up to €15M or 3% global turnover.
+  - title: qm — Multiplayer Agent Harness for Work Goes Viral on HN (589 pts)
+    source: Hacker News (#6, 589 pts)
+    url: https://github.com/yc-software/qm
+    summary: YC Software's open-source multiplayer agent harness for collaborative work hits HN front page at 589 points, enabling teams to run and coordinate multiple AI agents in shared workspaces.
+  - title: Flint — Microsoft Open-Sources Visualization Language for the AI Era
+    source: Hacker News (#4, 151 pts)
+    url: https://microsoft.github.io/flint-chart/
+    summary: Microsoft released Flint as a declarative visualization language designed specifically for AI-generated charts and dashboards, with 151 HN points and 55 comments.
+  - title: different-ai/openwork — Open-Source Alternative to Claude Cowork Trends #1 on GitHub
+    source: GitHub Trending
+    url: https://github.com/different-ai/openwork
+    summary: Open-source alternative to Claude Cowork powered by opencode, trending #1 on GitHub today with 806 daily stars at 19,591 total stars.
+  - title: OpenAI Publishes 10 Advances in Mathematics — GPT-5.6 Sol Proves Cycle Double Cover Conjecture
+    source: OpenAI / Hacker News (#27, 173 pts)
+    url: https://openai.com/index/ten-advances-in-mathematics/
+    summary: OpenAI detailed 10 mathematical advances by GPT-5.6 Sol Ultra including a proof of the Cycle Double Cover Conjecture, a long-open graph theory problem, with 173 HN points and 130 comments.
+  - title: Agentic AI Foundation (AAIF) Launches Under Linux Foundation with MCP, Goose, AGENTS.md
+    source: PRNewswire / AAIF
+    url: https://aaif.io
+    summary: The Linux Foundation formally established the Agentic AI Foundation with Anthropic's MCP, Block's Goose, and OpenAI's AGENTS.md as founding projects, with MCP Dev Summit Seoul scheduled for Aug 13-14.
+  - title: Run Kimi K3 Locally with 29GB RAM at 0.50 tok/s
+    source: Hacker News
+    url: https://github.com/sqliteai/waste
+    summary: Show HN project demonstrates running Kimi K3 (2.8T params, 104B active) on consumer hardware with just 29GB RAM, achieving 0.50 tokens/second inference.
+  - title: GitHub Copilot SDK Released — Multi-Platform Agent Integration
+    source: GitHub Trending
+    url: https://github.com/github/copilot-sdk
+    summary: GitHub launched a multi-platform SDK for integrating GitHub Copilot Agent into third-party apps and services, enabling custom agent workflows built on Copilot infrastructure.
+  - title: Microsoft Agent Framework v1.0 Reaches GA — Merged AutoGen + Semantic Kernel
+    source: InfoQ / TinyCommand
+    url: https://www.infoq.com/news/2025/10/microsoft-agent-framework
+    summary: Microsoft's unified Agent Framework combining AutoGen and Semantic Kernel reached v1.0 in April 2026, providing first-class C#, Python, and Java support for enterprise agent development.
+  - title: jcode — Most RAM-Efficient LLM Harness Trends on GitHub (14.6K★)
+    source: GitHub Trending
+    url: https://github.com/1jehuang/jcode
+    summary: Rust-based LLM inference harness claiming the most RAM-efficient architecture trends on GitHub with 14,678 stars, adding 527 stars today.
 - date: 2026-08-01
   items:
   - title: Claude Opus 5 Ships — Near-Fable Quality at Half the Price
@@ -600,4 +642,3 @@
     summary: OpenRouter's top 5 models are all open-weight. Chinese open-weight models
       account for 41% of HuggingFace downloads. Kimi K3 dropped as the largest open
       model ever — yet no tool exists to test models on your own prompts.
-  - title: Token cost crisis driving deterministic hybrid workflows
