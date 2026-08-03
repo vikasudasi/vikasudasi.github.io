@@ -3,7 +3,6 @@ layout: page
 title: doc-inject-guard
 description: CLI tool that scans documents (DOCX, PDF, Markdown, HTML) for embedded prompt injection payloads targeting AI agents. Features five detection modules, risk scoring, multi-format reporting, and watch mode.
 img: /assets/img/projects/doc-inject-guard.png
-redirect: https://github.com/vikasudasi/doc-inject-guard
 importance: 4
 category: security
 related_publications: false
