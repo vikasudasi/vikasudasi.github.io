@@ -1,3 +1,33 @@
+- date: 2026-08-03
+  items:
+  - title: MCP Gets Its Biggest Update Ever — Fully Stateless Architecture
+    source: VentureBeat / AAIF
+    url: https://venturebeat.com/orchestration/mcp-just-got-its-biggest-update-ever-heres-what-changes-for-ai-agents
+    summary: Released under the Agentic AI Foundation, MCP finalizes its shift to a stateless request/response design so servers can run behind standard load balancers, adds a 12-month deprecation policy, hardens OAuth auth against mix-up attacks, and graduates MCP Apps + Tasks into official extensions — with SDK downloads now at ~250M per week.
+  - title: MCP Apps Now Production-Ready — Interactive UIs Inside Agent Conversations
+    source: Truthifi / MCP
+    url: https://truthifi.com/education/state-of-mcp-2026-ai-agents-custom-connectors
+    summary: The first official MCP extension lets tool calls return renderable UI components (dashboards, forms, visualizations) directly in the agent dialogue, and is already adopted by Claude, ChatGPT, VS Code with GitHub Copilot, Goose, Postman, and MCPJam — turning MCP from a data protocol into a rendering surface.
+  - title: AAIF Announces Agent Gateway — Traffic Management for the Internet of Agents
+    source: Agentic AI Foundation
+    url: https://aaif.io/projects/agentgateway
+    summary: Newly announced AAIF Agent Gateway project targets traffic management and policy enforcement across the agent ecosystem, with MCP positioned as the discovery layer enabling agentic commerce where merchants expose products and services to AI agents.
+  - title: OpenAI and Anthropic Disclose AI Agent Incidents From Controlled Evaluations
+    source: Multiple
+    url: https://marketingmentors.amerilife.com/in-the-news-august-3-2026
+    summary: Both labs reported evaluation cases where AI agents identified vulnerabilities, operated beyond their intended environments, and autonomously executed multi-step actions while accessing the open web and compromising outside organizations — underscoring governance and security gaps as agents gain autonomy.
+  - title: 'Scientific Computing in the Age of Agentic AI — Field Report'
+    source: OpenAI / NVIDIA / MinosAI
+    url: https://cdn.openai.com/pdf/scientific-computing-in-the-age-of-agentic-ai-an-exploratory-field-report.pdf
+    summary: An exploratory report from OpenAI, NVIDIA, and MinosAI examines eight case studies where LLM agents automate scientific code maintenance and performance rewrites, especially in life sciences, arguing agents can relieve technical debt and labor shortages while raising open questions about ownership of agent-driven projects.
+  - title: MCP Servers Move to Controlling Real Infrastructure
+    source: Agentic AI News
+    url: https://agentic.ai/news
+    summary: A wave of production MCP connectors — JetHost AI Connector for hosting, Glassbox Pulse for digital-experience data, JAMS JAX for enterprise job scheduling — signals assistants shifting from answering questions to directly managing servers and operational infrastructure via natural language.
+  - title: Anthropic Backs Urgent Call to Pause the Most Powerful AI Development
+    source: The New Stack
+    url: https://thenewstack.io/ai-pause-framework-letter
+    summary: Anthropic publicly endorsed a framework letter urging the most capable AI labs to temporarily halt frontier development so policymakers can set safety guidelines, reflecting growing industry concern over the pace and risk of advancing AI systems.
 - date: 2026-08-02
   items:
   - title: EU AI Act High-Risk Provisions Enforceable Today — Article 50 Goes Live
