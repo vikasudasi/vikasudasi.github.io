@@ -10,6 +10,8 @@ image:
 categories: project
 ---
 
+{% include figure.liquid path="/assets/img/projects/doc-inject-guard.png" class="img-fluid rounded z-depth-1" %}
+
 The Context Collapse AI worm made headlines this summer — and for good reason. Researchers demonstrated malicious instructions hidden inside Word documents that could alter financial data via Microsoft Copilot, exfiltrate sensitive information, and even self-propagate to new documents. It worked through *two* mitigation patches. EchoLeak CVE-2025-32711 (CVSS 9.3) proved it's not just a lab curiosity — zero-click prompt injection via hidden text is being actively exploited.
 
 The problem is clear: your AI agent pipeline has a gap. You scan for vulnerabilities in dependencies (Snyk, Dependabot), you scan for secrets in code (GitGuardian), you even scan for slop in your codebase (no-slop). But nobody scans the *documents* you feed into your AI agents.

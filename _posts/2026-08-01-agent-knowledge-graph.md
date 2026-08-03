@@ -10,6 +10,8 @@ image:
 categories: project
 ---
 
+{% include figure.liquid path="/assets/img/projects/agent-knowledge-graph.png" class="img-fluid rounded z-depth-1" %}
+
 Your AI agent has no memory between sessions. Not really.
 
 Transcript logs help with auditing — you can scroll back through "what was said" — but they're flat text. There's no entity-level recall, no relationship-aware retrieval, no way to ask "what decisions did we make about Redis last week?" and get a structured answer.
