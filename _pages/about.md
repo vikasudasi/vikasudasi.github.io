@@ -31,6 +31,7 @@ I'm an **AI & Cloud Architecture leader** at Nielsen Marketing Cloud, where I le
 
 **⚡ Shipped 6 open-source tools in July 2026** — one every 2-3 days. I build **open-source AI agent frameworks** — tools that let developers run deep agents in their terminal, coordinate multi-agent workflows, and detect AI-generated content. Recent projects include:
 
+- **🖥️ [mcp-apps-render](https://github.com/vikasudasi/mcp-apps-render)** — CLI that renders MCP Apps interactive UI payloads (dashboards, forms, visualizations) directly in the terminal — no browser, no iframe, no HTML.
 - **🔍 [slop-detect](https://github.com/vikasudasi/slop-detect)** — Privacy-preserving CLI that detects AI-written text using 5 local heuristics. Fully offline, no API calls.
 - **📊 [prompt-riser](https://github.com/vikasudasi/prompt-riser)** — CLI that runs prompts through multiple reasoning strategies and visualizes the reasoning paths as a tree.
 - **🔬 [pr-classify](https://github.com/vikasudasi/pr-classify)** — Detects AI-generated PRs and generates structured audit reports for human reviewers.

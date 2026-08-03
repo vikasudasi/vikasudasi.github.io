@@ -20,6 +20,7 @@ nav_order: 4
 | [eu-act-check](https://github.com/vikasudasi/eu-act-check) | CLI compliance scanner for EU AI Act Article 50 — scans files for C2PA manifests, EXIF metadata, and AI disclosure text patterns with pass/warn/fail reports |
 | [no-slop](https://github.com/vikasudasi/no-slop) | CLI that scans your codebase for AI slop patterns and generates constraint files (SKILL.md, .cursorrules, CLAUDE.md, .clinerules) for Claude Code, Cursor, Codex, and Gemini CLI |
 | [mcp-app-suite](https://github.com/vikasudasi/mcp-app-suite) | MCP Apps development suite: playground to preview interactive HTML UIs, scaffolder to scaffold new projects, and demo server with 3 sample apps |
+| [mcp-apps-render](https://github.com/vikasudasi/mcp-apps-render) | CLI that renders MCP Apps interactive UI payloads (dashboards, forms, visualizations) directly in the terminal — no browser, no iframe, no HTML |
 | [agent-creds-scanner](https://github.com/vikasudasi/agent-creds-scanner) | CLI that scans AI agent config files (CLAUDE.md, .cursorrules, MCP configs) for hardcoded credentials before they leak |
 | [cache-smith](https://github.com/vikasudasi/cache-smith) | CLI that analyzes your prompts for KV cache potential and simulates semantic caching with local embeddings — benchmark savings before buying the gateway |
 | [llm-context-fmt](https://github.com/vikasudasi/llm-context-fmt) | CLI that reveals how format constraints (JSON, XML, Markdown, plain text) systematically bias LLM outputs — based on July 2026 ArXiv research |

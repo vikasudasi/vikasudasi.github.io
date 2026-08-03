@@ -7,6 +7,7 @@ github_repos:
   - vikasudasi/eu-act-check
   - vikasudasi/no-slop
   - vikasudasi/mcp-app-suite
+  - vikasudasi/mcp-apps-render
   - vikasudasi/agent-creds-scanner
   - vikasudasi/mcp-scan
   - vikasudasi/cache-smith
