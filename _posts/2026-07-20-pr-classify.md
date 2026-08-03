@@ -8,6 +8,8 @@ tags: [ai-agents, open-source, cli, developer-tools, python, code-review, github
 related_posts: false
 ---
 
+{% include figure.liquid path="/assets/img/projects/pr-classify.png" class="img-fluid rounded z-depth-1" %}
+
 A paper dropped on ArXiv today: **25,264 agentic PRs across 2,361 repositories**. The finding? Most repos receive only 1-2 AI-generated PRs, single-human oversight is the norm, and *no existing review tool distinguishes AI from human contributions*.
 
 That's the gap I set out to fill.

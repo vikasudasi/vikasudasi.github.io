@@ -8,6 +8,8 @@ tags: [ai-agents, open-source, cli, developer-tools, python, prompt-engineering]
 related_posts: false
 ---
 
+{% include figure.liquid path="/assets/img/projects/prompt-snapshot.png" class="img-fluid rounded z-depth-1" %}
+
 If you use AI coding agents — Claude Code, Cursor, Codex CLI, or any of the terminal-based agents — you've probably done this dance:
 
 > Copy your project tree, then open a few key files, copy their contents, paste everything into a prompt, and hope the agent has enough context.

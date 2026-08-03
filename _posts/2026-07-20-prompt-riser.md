@@ -7,6 +7,8 @@ tags: [ai, reasoning, cli, open-source, python]
 categories: [projects]
 ---
 
+{% include figure.liquid path="/assets/img/projects/prompt-riser.png" class="img-fluid rounded z-depth-1" %}
+
 ## The Problem
 
 I've been working with reasoning models a lot recently — GPT-5.6 Sol, Claude Fable, DeepSeek R1, Kimi K3. They're incredible at complex tasks, but there's a fundamental problem: **you only see the final answer, not the thinking**.

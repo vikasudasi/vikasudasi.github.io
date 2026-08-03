@@ -8,6 +8,8 @@ tags: [ai-agents, open-source, cli, developer-tools, python, skills, agent-ecosy
 related_posts: false
 ---
 
+{% include figure.liquid path="/assets/img/projects/skill-audit.png" class="img-fluid rounded z-depth-1" %}
+
 The agent skills ecosystem is exploding. **77K stars on `agent-skills` alone** (and gaining 1,000+ *a day*). Claude Code, Codex CLI, Cursor, Gemini CLI — every major agent platform now uses SKILL.md files to define reusable capabilities.
 
 But there's a problem: **zero tooling to manage them.**
