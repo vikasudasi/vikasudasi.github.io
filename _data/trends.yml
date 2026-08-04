@@ -1,3 +1,25 @@
+- date: 2026-08-04
+  items:
+  - title: Qwen3.8-Max Launches — Alibaba's Most Capable Model, First Open-Weight Max Flagship
+    source: Hacker News (#3, 710 pts) / Qwen
+    url: https://qwen.ai/blog?id=qwen3.8
+    summary: Alibaba released Qwen3.8-Max, a 2.4T-param sparse MoE with just 95B active params and 1M context, ranking 5th in Text Arena and 4th in Frontend Code Arena — the first Max-class model slated for full open weights (dropping next week, with a 27B variant going open-weight too), after autonomously executing a 16-day software engineering project end-to-end.
+  - title: Critical CVEs Issued for Hallucinated SQLite Vulnerabilities — 'LLM Slop' Disrupts Patching
+    source: Hacker News (#1, 159 pts) / JFrog Security
+    url: https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops
+    summary: JFrog found 'critical' SQLite CVEs (CVE-2026-51302, 9.8) referenced non-existent code, failed to reproduce, and read as AI-generated — spotlighting a new class of hallucinated security advisories that force organizations to chase phantom patches.
+  - title: kimi-k3-in-c Runs the 2.78T-Param Kimi K3 on a Single CPU in 8.24GB RAM
+    source: GitHub Trending / r/LocalLLaMA
+    url: https://github.com/FareedKhan-dev/kimi-k3-in-c
+    summary: A portable C99 implementation (176KB binary, no BLAS/framework/GPU) runs full Kimi K3 inference on one CPU in 8.24GB RAM to expose the architecture rather than serve traffic, as frontier-scale MoE local-inference experiments keep setting new hardware limits.
+  - title: GPT-5.6 Sol Tops the August 2026 Agentic Leaderboard at 75.8%
+    source: BenchLM
+    url: https://benchlm.ai/agentic
+    summary: Independent agentic eval ranks GPT-5.6 Sol first at 75.8%, ahead of GPT-5.6 Terra (73.4%) and Claude Opus 5 (71.8%), with Kimi K3 the strongest open-weight agentic model at 66.6% — reinforcing agentic-centric model evaluation this cycle.
+  - title: "Show HN — Nightcrawler: A Local AI Pentesting Agent Running on a Smartphone"
+    source: Hacker News
+    url: https://github.com/garagehq/nightcrawler
+    summary: A local AI pentesting agent that runs autonomous security testing from a smartphone, extending the fast-growing on-device and private-hosting security-agent trend.
 - date: 2026-08-03
   items:
   - title: MCP Gets Its Biggest Update Ever — Fully Stateless Architecture
