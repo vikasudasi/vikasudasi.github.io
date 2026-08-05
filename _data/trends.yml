@@ -1,3 +1,37 @@
+- date: 2026-08-05
+  items:
+  - title: '"LLMs reward expertise" essay tops HN at 1,090 points'
+    source: Hacker News (#4, 1090 pts, 454 comments)
+    url: https://www.seangoedecke.com/llms-reward-expertise/
+    summary: Sean Goedecke's counter to the "AI only helps bad programmers" narrative argues LLMs multiply the value of genuine domain expertise, sparking HN's biggest current coding discussion on who actually benefits from AI-assisted development.
+  - title: DeepSeek V4 Flash Runs on a Single AMD MI300X
+    source: Hacker News (#2, 118 pts)
+    url: https://github.com/ryanzhou/deepseek-v4-flash-mi300x
+    summary: A community project demonstrates running DeepSeek V4 Flash inference on a single AMD MI300X accelerator, extending the trend of making frontier-flash-class models deployable on commodity hardware.
+  - title: 'Swiftlet — Run an 80B Qwen in 4.3GB RAM on a Mac, and a 35B on an iPhone'
+    source: Hacker News (Show HN, 230 pts, 102 comments)
+    url: https://github.com/leonickson1/Swiftlet
+    summary: A Show HN project compresses and runs an 80B Qwen in just 4.3GB of RAM on a Mac and a 35B model on an iPhone, pushing local LLM inference to consumer edge devices with intense community engagement.
+  - title: Cloudflare Details Running Kimi and GLM Open-Weight Models at Scale
+    source: Hacker News (#27, 234 pts)
+    url: https://blog.cloudflare.com/smaller-faster-safer-models/
+    summary: Cloudflare's engineering post on serving smaller open-weight models (Kimi, GLM) at global scale highlights the production shift toward cheaper, faster, safer local inference on the network edge.
+  - title: Keyv and Friends Compromised in Active 'Shai-Hulud' npm Supply Chain Attack
+    source: Hacker News / Aikido
+    url: https://www.aikido.dev/blog/keyv-and-friends-compromised-in-npm-supply-chain-attack
+    summary: Security firm Aikido reports an ongoing npm supply-chain campaign targeting Keyv and related packages, widening the developer-security surface as AI tooling pulls in deep dependency trees.
+  - title: antirez/ds4 — DeepSeek 4 Flash and PRO Local Inference Engine Trends on GitHub (19.9K★)
+    source: GitHub Trending
+    url: https://github.com/antirez/ds4
+    summary: Redis creator antirez's C-based local inference engine for DeepSeek 4 Flash and PRO across Metal, CUDA and ROCm adds ~150 stars a day, riding the surge in self-hosted frontier-model inference.
+  - title: DeepSeek-Reasonix — DeepSeek-Native Terminal Coding Agent (28.8K★)
+    source: GitHub Trending
+    url: https://github.com/esengine/DeepSeek-Reasonix
+    summary: A Go-based, DeepSeek-native CLI coding agent engineered around prefix-cache stability for long-running sessions, gaining 274 stars today as open-weight coding agents proliferate.
+  - title: 'Devtools Must Be Open Source — 646-point HN essay'
+    source: Hacker News (646 pts, 213 comments)
+    url: https://blog.exe.dev/devtools-must-be-open-source
+    summary: A widely discussed argument that developer tooling must stay open source is a bellwether for how the community wants the AI dev-tool stack governed as agents absorb more of the toolchain.
 - date: 2026-08-04
   items:
   - title: Qwen3.8-Max Launches — Alibaba's Most Capable Model, First Open-Weight Max Flagship
