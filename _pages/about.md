@@ -29,7 +29,7 @@ latest_posts:
 
 I'm an **AI & Cloud Architecture leader** at Nielsen Marketing Cloud, where I lead teams building scalable data systems, AI-driven pipelines, and the next generation of intelligent agents.
 
-**⚡ Shipped 6 open-source tools in July 2026** — one every 2-3 days. I build **open-source AI agent frameworks** — tools that let developers run deep agents in their terminal, coordinate multi-agent workflows, and detect AI-generated content. Recent projects include:
+**⚡ 20 open-source tools shipped** — one every 2-3 days. I build **open-source AI agent frameworks** — tools that let developers run deep agents in their terminal, coordinate multi-agent workflows, and detect AI-generated content. Recent projects include:
 
 - **🗄️ [skill-vault](https://github.com/vikasudasi/skill-vault)** — Self-hostable, semantic skill registry for AI agents over a single MCP endpoint. Search, retrieve, and verify skills on demand.
 - **🖥️ [mcp-apps-render](https://github.com/vikasudasi/mcp-apps-render)** — CLI that renders MCP Apps interactive UI payloads (dashboards, forms, visualizations) directly in the terminal — no browser, no iframe, no HTML.
