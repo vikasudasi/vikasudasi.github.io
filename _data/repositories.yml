@@ -4,6 +4,7 @@ github_users:
 repo_description_lines_max: 3
 
 github_repos:
+  - vikasudasi/skill-vault
   - vikasudasi/eu-act-check
   - vikasudasi/no-slop
   - vikasudasi/mcp-app-suite

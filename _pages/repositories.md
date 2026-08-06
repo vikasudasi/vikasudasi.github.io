@@ -17,6 +17,7 @@ nav_order: 4
 
 | Repository | Description |
 |------------|-------------|
+| [skill-vault](https://github.com/vikasudasi/skill-vault) | Self-hostable, semantic skill registry for AI agents over a single MCP endpoint — search skills by task, retrieve what you need on demand, verify what you trust via sha256 + ed25519 signing |
 | [eu-act-check](https://github.com/vikasudasi/eu-act-check) | CLI compliance scanner for EU AI Act Article 50 — scans files for C2PA manifests, EXIF metadata, and AI disclosure text patterns with pass/warn/fail reports |
 | [no-slop](https://github.com/vikasudasi/no-slop) | CLI that scans your codebase for AI slop patterns and generates constraint files (SKILL.md, .cursorrules, CLAUDE.md, .clinerules) for Claude Code, Cursor, Codex, and Gemini CLI |
 | [mcp-app-suite](https://github.com/vikasudasi/mcp-app-suite) | MCP Apps development suite: playground to preview interactive HTML UIs, scaffolder to scaffold new projects, and demo server with 3 sample apps |
