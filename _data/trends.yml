@@ -1,3 +1,33 @@
+- date: 2026-08-06
+  items:
+  - title: NVIDIA Launches Alpamayo 2 Super — Open Reasoning Model for Level 4 Robotaxis
+    source: NVIDIA / Hacker News
+    url: https://nvidianews.nvidia.com/news/nvidia-alpamayo-2-super-robotaxis
+    summary: NVIDIA unveiled Alpamayo 2 Super, a 34B-parameter (reported 32B) reasoning-based vision-language-action model for safe Level 4 robotaxi development, now commercially available with open weights on GitHub and HuggingFace, adding 360-degree awareness and Chain-of-Causation reasoning to extend the open-model wave into physical AI.
+  - title: Bending Spoons to Acquire Airtable for $1.285B EV (~$2.25B Equity)
+    source: TechCrunch / Bending Spoons
+    url: https://techcrunch.com/2026/08/04/bending-spoons-to-buy-airtable-for-1-28b
+    summary: In its first deal since going public on Nasdaq in July, Milan-based app consolidator Bending Spoons agreed to buy Airtable in an all-cash transaction valuing the spreadsheet-database platform at $2.25B equity ($480M ARR) — a steep comedown from its $11.7B valuation in 2021.
+  - title: HappyRobot Raises $150M Series C for AI Voice Agents in Logistics
+    source: startups.gallery / Prysm Capital
+    url: https://startups.gallery/news
+    summary: AI startup automating freight and logistics phone operations via conversational voice agents raised a $150M Series C led by Prysm Capital, underscoring the surge of agentic AI in real-world operational workflows.
+  - title: QuantHealth Raises $45M Series B to Predict Patient Therapy Response
+    source: TechStartups
+    url: https://techstartups.com
+    summary: The AI startup uses machine learning to predict how patients will respond to therapies, closing a $45M Series B and continuing the run of AI drug-discovery and clinical-trial funding.
+  - title: 'Hacker News Debates "Why Write Code in 2026" — Reverse Centaurs and AI Agents'
+    source: Hacker News
+    url: https://news.ycombinator.com/item?id=48861923
+    summary: A front-page discussion on the purpose of human coding in the agent era, pulling in Doctorow's "reverse centaurs" framing, as the community argues whether human developers become reviewers and spec-authors rather than implementers.
+  - title: Ambrook Raises $30M Series B — AI for Farm and Agribusiness Finance
+    source: startups.gallery / Lachy Groom
+    url: https://startups.gallery/news
+    summary: The agricultural-fintech startup that applies AI to accounting, lending and compliance for farms closed a $30M Series B led by Lachy Groom, adding to a busy week of vertical AI funding.
+  - title: Claryx Emerges From Stealth With $3.5M for Genomic Outbreak Prevention
+    source: TechStartups
+    url: https://techstartups.com
+    summary: Clinical-intelligence startup Claryx came out of stealth with $3.5M to use genomic intelligence to detect and stop hospital outbreaks before they spread, a fresh AI-for-healthcare-infrastructure launch.
 - date: 2026-08-05
   items:
   - title: '"LLMs reward expertise" essay tops HN at 1,090 points'
