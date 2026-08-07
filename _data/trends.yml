@@ -1,3 +1,33 @@
+- date: 2026-08-07
+  items:
+  - title: Google DeepMind Leadership Shakeup — Hassabis to Chair, Jeff Dean Departs
+    source: Google / Hacker News (#7, 705 pts)
+    url: https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/
+    summary: Google announced Demis Hassabis moves from DeepMind CEO to Chair as part of a leadership transition, with longtime AI leader Jeff Dean departing, topping HN at 705 points as the community digests the biggest DeepMind reorganization since the Google merger.
+  - title: Cloudflare OS — Open Platform for Agents, Apps, and Work
+    source: Cloudflare / Hacker News (#15, 582 pts)
+    url: https://blog.cloudflare.com/cloudflare-os/
+    summary: Cloudflare launched "Cloudflare OS" as an open platform designed to run agents, apps and work across its network, drawing heavy discussion about edge infrastructure becoming the natural home for agent execution.
+  - title: Zed DeltaDB — Local-First Database Purpose-Built for AI Agents
+    source: Zed / Hacker News (#8, 460 pts)
+    url: https://zed.dev/deltadb
+    summary: The Zed editor team open-sourced DeltaDB, a local-first database designed for AI agents, gaining 460 HN points as agent state, memory, and durable-storage infrastructure becomes a hot new category.
+  - title: Meta Ships Muse Code and Muse Spark 1.2 — Open Coding Models
+    source: Meta AI / Hacker News (#12, 273 pts)
+    url: https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2
+    summary: Meta unveiled Muse Code and an update to Muse Spark 1.2, expanding its open coding-model family, with 172 comments on HN debating quality versus closed rivals.
+  - title: Neon Claims Castform Beats GPT-5.6 Sol on Retrieval With 100x Cheaper Open Models
+    source: Neon / Hacker News (#13, 344 pts)
+    url: https://neon.com/blog/how-castform-neon-beats-frontier-models-on-price-and-efficiency
+    summary: Neon published benchmarks showing its Castform open models beating GPT-5.6 Sol on retrieval tasks at roughly 100x lower cost, fueling the open-model-versus-frontier price/performance debate.
+  - title: Prime Agent — Self-Improving RL Agent Without Reward Modeling
+    source: Prime Intellect / Hacker News (#16, 193 pts)
+    url: https://www.primeintellect.ai/blog/prime-agent
+    summary: Prime Intellect released Prime Agent, a self-improving agent trained via reinforcement learning that improves without hand-engineered reward modeling, extending the open-source RL-agent trend.
+  - title: Launch HN — HyperProbe (YC S26) Read-Only Debugging Agents for Production
+    source: Hacker News (Launch HN)
+    url: https://www.hyperprobe.co
+    summary: YC S26 startup HyperProbe launched agents that do read-only debugging directly in production, a fresh entry in the growing agentic-observability and production-debugging category.
 - date: 2026-08-06
   items:
   - title: NVIDIA Launches Alpamayo 2 Super — Open Reasoning Model for Level 4 Robotaxis
