@@ -1,3 +1,37 @@
+- date: 2026-08-08
+  items:
+  - title: AMD Acquires Taalas — Etches AI Model Weights Directly Into Silicon
+    source: AMD / The Register / Hacker News (#3, 740 pts)
+    url: https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/
+    summary: AMD announced a definitive agreement to acquire Toronto-based Taalas, whose chips hardwire a trained model's weights directly into CMOS instead of loading them from memory, topping HN at 740 points and 564 comments as the community debates model-specific inference silicon versus general-purpose Instinct accelerators.
+  - title: Qwen3.8-Max Ranks Best Overall Model on Agentic Index
+    source: Artificial Analysis / Hacker News (#7, 526 pts)
+    url: https://artificialanalysis.ai/
+    summary: Artificial Analysis ranked Alibaba's Qwen3.8-Max as the best overall model on its agentic index, ahead of GPT-5.6 Sol and other frontier models, drawing 526 HN points and 335 comments as an open-weight flagship keeps climbing agentic leaderboards.
+  - title: Liquid AI LFM2.5-2.6B — Open-Weight Agentic Model Runs on a Raspberry Pi
+    source: Liquid AI / VentureBeat
+    url: https://venturebeat.com/technology/no-cloud-no-gpus-no-problem-liquid-ais-new-model-lfm2-5-2-6b-brings-powerful-ai-agents-to-devices-as-small-as-a-raspberry-pi
+    summary: Liquid AI debuted LFM2.5-2.6B, an open-weight model for agentic workloads that runs entirely on local hardware from smartphones and laptops down to a Raspberry Pi — no cloud and no GPUs — signaling a clear path toward cheaper, more private edge agents.
+  - title: Humans Missed 1 in 3 Threats When Approving AI Agent Commands
+    source: ScaleX / Hacker News (#18, 319 pts)
+    url: https://scalex.dev/blog/ai-agent-permissions-stats/
+    summary: A study tracking 40,000 game runs found human reviewers missed roughly 1 in 3 threats when approving AI agent commands, fueling one of HN's biggest current threads on the real limits of human-in-the-loop agent oversight.
+  - title: USA Today Co. Partners With Palantir to Mine Customer Data With AI
+    source: Poynter / USA Today Co.
+    url: https://www.poynter.org/business-work/2026/usa-today-parnership-deal-palantir
+    summary: USA Today Co. announced a partnership with Palantir to apply AI software to customer data as part of its push to find new monetization opportunities, a notable mainstream-media bet on software-driven revenue analytics.
+  - title: Agent-Reach — One CLI Gives AI Agents Eyes on Twitter, Reddit, YouTube and More
+    source: GitHub Trending
+    url: https://github.com/Panniantong/Agent-Reach
+    summary: Trending at 64K+ stars with 645 daily stars, Agent-Reach gives AI agents a single CLI to read and search Twitter, Reddit, YouTube, GitHub, Bilibili and XiaoHongShu with zero API fees, extending the spell of agentic access to social and content platforms.
+  - title: OpenAI Improves GPT-5.6 Sol, Expands GPT-5.6 Luna Access for Free Users
+    source: OpenAI / Hacker News (#12, 260 pts)
+    url: https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/
+    summary: OpenAI said it is improving GPT-5.6 Sol in ChatGPT and expanding GPT-5.6 Luna access to free users, drawing 260 HN points and 212 comments as the lab iterates on its flagship reasoning models.
+  - title: Launch HN — ProvenMetal (YC S26) Delivers Circuit Boards in Days Instead of Weeks
+    source: Hacker News (Launch HN, 212 pts)
+    url: https://provenmetal.com
+    summary: YC S26 startup ProvenMetal launched to turn around circuit-board manufacturing in days rather than weeks, a fresh hardware-infrastructure bet on faster PCB prototyping with 149 HN comments.
 - date: 2026-08-07
   items:
   - title: Google DeepMind Leadership Shakeup — Hassabis to Chair, Jeff Dean Departs
