@@ -1,3 +1,37 @@
+- date: 2026-08-09
+  items:
+  - title: Cloudflare Launches Kitesurf — an Agent-First Browser Built to Run in V8 Isolates
+    source: Cloudflare / TechCrunch / Hacker News (#~212 pts)
+    url: https://blog.cloudflare.com/kitesurf/
+    summary: Cloudflare unveiled Kitesurf, a browser purpose-built for AI agents that executes untrusted browsing in isolated V8 sandboxes, drawing 212 HN points as agent-native infrastructure moves another layer up the stack (TechCrunch broke the story hours ago).
+  - title: DeepSeek V4 Flash 0731 Tops the ARC Prize Leaderboard
+    source: ARC Prize / Hacker News (#~763 pts)
+    url: https://arcprize.org/results/deepseek-v4-flash-0731
+    summary: DeepSeek's open-weight V4 Flash 0731 checkpoint landed as the system of record on the ARC Prize leaderboard with 763 HN points, extending the week's open-model momentum with a fast, permissively-licensed release built for local and agentic inference.
+  - title: DeepMind's WeatherNext Model Achieves Breakthrough in Forecasting Cyclones
+    source: Google DeepMind / Hacker News (#~384 pts)
+    url: https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/
+    summary: DeepMind published new WeatherNext results showing breakthrough skill at forecasting tropical cyclones with hours of extended lead time, drawing 384 HN points as AI weather prediction keeps moving toward operational disaster readiness.
+  - title: U.S. DOE Launches the Genesis Open Models Initiative
+    source: Argonne / Hacker News (#~345 pts)
+    url: https://genesisopenmodels.anl.gov/
+    summary: The U.S. Department of Energy launched Genesis, an open-models initiative hosted at Argonne aimed at standing up government-backed open-weight AI models, drawing 345 HN points as public-sector open-AI infrastructure gains momentum.
+  - title: Oracle Bans AI-Generated Code From OpenJDK
+    source: Dealroom / Hacker News (#~520 pts)
+    url: https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code
+    summary: Oracle moved to ban AI-generated code from contributing to OpenJDK, drawing 520 HN points and fierce debate given Larry Ellison's claim that Oracle isn't writing AI code itself in its Java-forwarding push.
+  - title: The Nixpkgs Core Team Has Disbanded
+    source: NixOS Discourse / Hacker News (#~384 pts)
+    url: https://discourse.nixos.org/t/the-nixpkgs-core-team-has-disbanded/79413
+    summary: The Nixpkgs core team announced it has disbanded, drawing 384 HN points and a wide community discussion about governance, burnout, and the future of one of open source's largest distributions.
+  - title: New Mexico Court Orders Meta to Pay $567M Over Children's Mental Health Harms
+    source: The Guardian / Hacker News (#~793 pts)
+    url: https://www.theguardian.com/technology/2026/aug/06/new-mexico-court-meta
+    summary: A New Mexico court ordered Meta to pay $567M over harms to children's mental health, one of the largest social-media youth-harm rulings to date and a 793-point HN discussion on platform liability.
+  - title: "Code Was Never the Hard Part" Is an Insult to All Programmers
+    source: Senko.net / Hacker News (#~567 pts)
+    url: https://blog.senko.net/code-was-never-the-hard-part-is-an-insult-to-all-programmers
+    summary: A widely shared essay (567 HN points) pushes back on the AI-agent-era mantra that shipping software is the easy part and engineering judgment is what still matters, feeding the same ongoing debate over what humans do when AI writes the code.
 - date: 2026-08-08
   items:
   - title: AMD Acquires Taalas — Etches AI Model Weights Directly Into Silicon
