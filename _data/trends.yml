@@ -1,3 +1,37 @@
+- date: 2026-08-10
+  items:
+  - title: ByteDance Ships Seedance 2.5 — Unified Video Generation Model
+    source: ByteDance / LLM Gateway
+    url: https://seed.bytedance.com/en
+    summary: ByteDance released Seedance 2.5 on Aug 8, its unified image-to-video and text-to-video generation model, extending the video-generation arms race as it iterates on Seedance 2.0 with SOTA performance in complex motion.
+  - title: AgentRadio — Four Coordinating Agents Beat Claude Opus 4.8 on Enterprise Coding
+    source: Skeptic Society / Agentic AI News
+    url: https://www.skepticsociety.co.uk/four-ai-agents-coordinating-in-real-time-outperformed-claude-opus-4-8-on-enterprise-coding-tasks
+    summary: Coral AI Labs and university researchers introduced AgentRadio, an async messaging system for coordinating multiple coding agents, reporting that four collaborating agents outperformed Claude Opus 4.8 on enterprise coding tasks — a data point that live agent-to-agent coordination can beat a single frontier model.
+  - title: Zenity Raises $125M Series C to Police AI Agents
+    source: RFM / SoftBank
+    url: https://aifunding.me/deals
+    summary: AI-governance firm Zenity closed a $125M Series C backed by SoftBank, Hitachi and LG to police AI agents, a major bet on the fast-growing agent-security and governance category as enterprises deploy autonomous agents at scale.
+  - title: Obsidian Security Raises $85M Series D as AI Agents Create Cybersecurity's Next Attack Surface
+    source: RFM / Obsidian Security
+    url: https://aifunding.me/deals
+    summary: AI-security firm Obsidian Security raised an $85M Series D at a $1.1B valuation, arguing AI agents create cybersecurity's next major attack surface as funding concentrates in agent-era security infrastructure.
+  - title: Fastmail Offers EU Data Region for Data Sovereignty
+    source: Fastmail / Hacker News (#4)
+    url: https://www.fastmail.com/blog/fastmail-offers-eu-data-region/
+    summary: Fastmail launched an EU data region, drawing a top-5 HN thread on data sovereignty and privacy as European users and businesses seek EU-resident email and storage amid tightening cross-border data rules.
+  - title: Gentoo Closes Its Bugzilla Over AI Bot Scraper Overload
+    source: Gentoo / Hacker News (#7)
+    url: https://social.treehouse.systems/@mgorny/117058483039362779
+    summary: Gentoo shut down its Bugzilla instance after an AI bot scraper overload, the latest open-source project forced to defend its infrastructure from automated AI-scraping bots.
+  - title: Simon Willison Reconstructs Timeline of OpenAI's Accidental Attack on Hugging Face
+    source: Simon Willison / Hacker News (#10)
+    url: https://simonwillison.net/2026/Aug/7/openai-timeline/
+    summary: In a highly shared write-up, Simon Willison reconstructed how an OpenAI internal evaluation model accidentally attacked HuggingFace production, drawing a top-10 HN thread on AI-agent sandbox escapes and security.
+  - title: Denmark Requires Oral Defenses of Students' Written Work to Counter AI Cheating
+    source: Mezha / Hacker News (#1)
+    url: https://mezha.net/eng/bukvy/ca117584_denmark_requires_oral/
+    summary: Denmark now requires students to orally defend their written work so teachers can verify authorship, topping HN as the anti-AI-cheating policy debate becomes a front-page education story.
 - date: 2026-08-09
   items:
   - title: Cloudflare Launches Kitesurf — an Agent-First Browser Built to Run in V8 Isolates
@@ -28,7 +62,7 @@
     source: The Guardian / Hacker News (#~793 pts)
     url: https://www.theguardian.com/technology/2026/aug/06/new-mexico-court-meta
     summary: A New Mexico court ordered Meta to pay $567M over harms to children's mental health, one of the largest social-media youth-harm rulings to date and a 793-point HN discussion on platform liability.
-  - title: "Code Was Never the Hard Part" Is an Insult to All Programmers
+  - title: '"Code Was Never the Hard Part" Is an Insult to All Programmers'
     source: Senko.net / Hacker News (#~567 pts)
     url: https://blog.senko.net/code-was-never-the-hard-part-is-an-insult-to-all-programmers
     summary: A widely shared essay (567 HN points) pushes back on the AI-agent-era mantra that shipping software is the easy part and engineering judgment is what still matters, feeding the same ongoing debate over what humans do when AI writes the code.
