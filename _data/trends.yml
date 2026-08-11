@@ -1,3 +1,33 @@
+- date: 2026-08-11
+  items:
+  - title: Meta Ships Muse Glimmer — 30B Open-Weight Model for Always-On Local Agents
+    source: Meta AI / Hacker News (#1, 984 pts)
+    url: https://developer.meta.com/ai/models/muse-glimmer
+    summary: Meta Superintelligence Labs released Muse Glimmer, a 30B-parameter open agentic model under Apache 2.0 that runs locally on a single consumer GPU or Mac, using DFlash speculative decoding for up to 3.1x faster generation; it topped HN at 984 points and 557 comments as the biggest push yet for private, on-device agents.
+  - title: Cloudflare Open-Sources Cloudflare OS — the Agent Workspace It Built for Its Own Staff
+    source: Cloudflare / explainx.ai
+    url: https://explainx.ai/blog/cloudflare-os-open-source-agent-platform-august-2026
+    summary: Part of Cloudflare "Agents Week," Cloudflare open-sourced Cloudflare OS, the browser-based agent workspace and app platform its own employees use daily — Apache-2.0, self-hostable on open-source workerd with local LLMs via Ollama, plus WriteGuard for fine-grained MCP server controls to limit risky agent tool calls.
+  - title: Tenable Launches CyberAgents Exchange — First Open-Source AI Agent Registry
+    source: Tenable / Black Hat USA 2026
+    url: https://investors.tenable.com/news-releases/news-release-details/tenable-launches-industrys-first-open-source-ai-agent-exchange
+    summary: At Black Hat, Tenable launched the CyberAgents Exchange, a vendor-agnostic open-source registry for security AI agents, skills, MCP servers and multi-agent playbooks, seeding it with 50+ open-source components and a hands-on agent-building event with Anthropic and AWS.
+  - title: Google's CodeMender Agent Upstreamed 72 Security Fixes to Open Source in Six Months
+    source: Google Open Source Blog
+    url: https://opensource.googleblog.com/2026/08
+    summary: Google detailed its CodeMender agent, which is both reactive (instantly patching new vulnerabilities) and proactive (rewriting code to eliminate whole vulnerability classes), having upstreamed 72 security fixes to open-source projects including codebases as large as 4.5 million lines.
+  - title: rtk — Rust CLI Proxy Cutting LLM Token Consumption 60-90% Trends on GitHub
+    source: GitHub Trending
+    url: https://github.com/rtk-ai/rtk
+    summary: rtk, a single Rust binary CLI proxy that reduces LLM token consumption on common dev commands by 60-90% with zero dependencies, trended hard (75K+ stars) as token-cost optimization becomes a core theme of the agentic-coding toolchain.
+  - title: Over 181,000 AI Meeting Recordings Left Exposed in Note-Taking App
+    source: bobdahacker.com / Hacker News (#1)
+    url: https://orangebot.ai/hacker-news-top-stories
+    summary: A note-taking app left more than 181,000 AI meeting recordings wide open, topping the HN front page as concerns mount over the sensitive data accumulating in AI transcription products.
+  - title: Hadrian's $1.37B Series D Leads a $4.29B Week of US Startup Funding
+    source: Fundz / Crunchbase
+    url: https://www.fundz.net/blog/us-startup-funding-rounds-august-1-7-2026
+    summary: US startups raised $4.29B across 25 named rounds the week of Aug 1-7, led by manufacturing-automation firm Hadrian's $1.37B Series D, customer-marketing platform Base's $1B round, and K2 Space's $500M satellite round, while A16Z led a $1.7B round into Kalanick's physical-AI startup Atoms.
 - date: 2026-08-10
   items:
   - title: ByteDance Ships Seedance 2.5 — Unified Video Generation Model
