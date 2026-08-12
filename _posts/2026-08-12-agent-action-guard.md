@@ -30,7 +30,7 @@ agent-action-guard check --action '{"type":"shell","command":"rm -rf /tmp/build"
 
 Two layers do the deciding, and they're both fully local and offline:
 
-- **19 deterministic rules** across shell, file, network, git, database, and MCP categories — the non-negotiables. `rm -rf /`, credential exfiltration, force-pushing git history, writing into a config you shouldn't touch. Each fires with a specific remediation string. And the rules are **path-aware**, so a benign `rm -rf /tmp/build` in a build dir passes while `rm -rf /` doesn't.
+- **28 deterministic rules** across shell, file, network, git, database, and MCP categories — the non-negotiables. `rm -rf /`, credential exfiltration, force-pushing git history, writing into a config you shouldn't touch. Each fires with a specific remediation string. And the rules are **path-aware**, so a benign `rm -rf /tmp/build` in a build dir passes while `rm -rf /` doesn't.
 - **An offline heuristic classifier** that scores dangerousness 0.0–1.0 and merges with the rule engine into a final confidence. Turn it off with `--no-classifier` when you want rules-only determinism.
 
 **Auditability is the point.** Every decision is appended to a JSONL audit log — timestamp, action hash, verdict, reason, confidence, rule ID, the full action snapshot. You can replay exactly what your agent wanted to do and why the guard said yes or no. No black box.
@@ -41,14 +41,36 @@ I didn't stop at the CLI. `agent-action-guard` runs as a live service too:
 
 - **`serve`** — a FastAPI endpoint (with server-sent events) that your agent can call over HTTP, plus a `/check` route for interactive use.
 - **`audit`** — render the JSONL log as a readable markdown report.
-- **`bench`** — a full evaluation harness with a labeled dataset, reporting precision, recall, and block-rate across all 19 rule categories.
+- **`bench`** — a full evaluation harness with a labeled dataset, reporting precision, recall, and block-rate across all rule categories.
 
 That last one matters because it answers the honest question: *does this actually catch things?* On an 87-sample labeled dataset, the guard hit **100% dangerous-action block rate and 0% benign false positives** — every truly dangerous action was caught, and no safe action was wrongly stopped.
 
 ## What It Took
 
-The full build runs 71 tests, is CI-backed (ruff, mypy, pytest), and ships as a clean, documentable tool — README, CHANGELOG, GitHub Actions. All local, no API calls, no telemetry.
+The full build runs 99 tests, is CI-backed (ruff, mypy, pytest), and ships as a clean, documentable tool — README, CHANGELOG, GitHub Actions. All local, no API calls, no telemetry.
 
 Your agent gets to move fast. But it never runs without a guard on the door.
+
+## Drop It Into the Loop: Pre-Tool-Use Hooks
+
+The CLI and service are one thing — but the real question was always *how does this sit inside an actual agentic system?* The answer turned out to be that every major agent speaks the same dialect: **pre-tool-use hooks**. Claude Code, Cursor, and Kiro all hand a JSON payload over stdin before a tool runs, and all three let a blocking exit signal stop it. So I built the guard to install directly into that path.
+
+```bash
+agent-action-guard hooks install --target claude-code   # or: cursor, kiro
+```
+
+That one command writes the harness hook config *and* a thin adapter script per target. The heavyweight rule engine stays in one place — each adapter just translates the harness's tool payload into the guard's canonical action schema, gets a verdict, and maps it back to the harness's native block signal:
+
+- **Claude Code / Cursor** — a dangerous action makes the adapter print `{"hookSpecificOutput":{"hookEventName":"PreToolUse","permissionDecision":"deny","permissionDecisionReason":"..."}}` and stop the tool before it runs.
+- **Kiro** — exits `2` with the reason on stderr.
+- **`allow` / `warn`** — exit `0`, tool runs normally.
+
+```json
+{"hookSpecificOutput": {"hookEventName": "PreToolUse", "permissionDecision": "deny", "permissionDecisionReason": "Recursive force delete: Avoid `rm -rf`; use safer deletion tools or scoped paths with confirmation."}}
+```
+
+The adapter resolves verdicts **locally by default** (no network), or you can point it at a running `serve` endpoint with `AGENT_ACTION_GUARD_URL` and route every hook check through a central, audited service. Same engine, same audit log, whichever harness you're running.
+
+That closes the loop: the guard isn't a CLI you remember to run — it's wired directly into the agent, sitting between "decided" and "executed" on every single tool call. Yours included.
 
 Check it out on [GitHub](https://github.com/vikasudasi/agent-action-guard).
