@@ -17,6 +17,7 @@ nav_order: 4
 
 | Repository | Description |
 |------------|-------------|
+| [agent-action-guard](https://github.com/vikasudasi/agent-action-guard) | Local, auditable action-safety guard that screens AI agent tool calls and returns allow/block/warn verdicts with a reason and confidence score before auto-execution — 19 deterministic rules + an offline heuristic classifier, with JSONL audit, FastAPI serve, and a bench harness |
 | [skill-vault](https://github.com/vikasudasi/skill-vault) | Self-hostable, semantic skill registry for AI agents over a single MCP endpoint — search skills by task, retrieve what you need on demand, verify what you trust via sha256 + ed25519 signing |
 | [eu-act-check](https://github.com/vikasudasi/eu-act-check) | CLI compliance scanner for EU AI Act Article 50 — scans files for C2PA manifests, EXIF metadata, and AI disclosure text patterns with pass/warn/fail reports |
 | [no-slop](https://github.com/vikasudasi/no-slop) | CLI that scans your codebase for AI slop patterns and generates constraint files (SKILL.md, .cursorrules, CLAUDE.md, .clinerules) for Claude Code, Cursor, Codex, and Gemini CLI |

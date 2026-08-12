@@ -4,6 +4,7 @@ github_users:
 repo_description_lines_max: 3
 
 github_repos:
+  - vikasudasi/agent-action-guard
   - vikasudasi/skill-vault
   - vikasudasi/eu-act-check
   - vikasudasi/no-slop
