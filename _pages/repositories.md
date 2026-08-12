@@ -43,7 +43,6 @@ nav_order: 4
 | [context-aware-rag](https://github.com/vikasudasi/context-aware-rag) | 100% local, privacy-preserving RAG with bilingual OCR |
 | [ai_coding](https://github.com/vikasudasi/ai_coding) | Agent-friendly project structure for AI coding agents |
 | [company-os](https://github.com/vikasudasi/company-os) | AI-native operating system for company workflows |
-| [AI_Travel_agent_Streamlit](https://github.com/vikasudasi/AI_Travel_agent_Streamlit) | AI travel agent built with Streamlit |
 | [console_web_search](https://github.com/vikasudasi/console_web_search) | Web search from your terminal — no browser needed |
 | [restaurant-bot](https://github.com/vikasudasi/restaurant-bot) | Restaurant discovery and recommendation bot |
 | [hello-world](https://github.com/vikasudasi/hello-world) | Hello World |
