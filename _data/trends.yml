@@ -1,3 +1,41 @@
+- date: 2026-08-12
+  items:
+  - title: Anthropic Flips Claude Code to Auto Mode by Default Aug 14 — Claims Classifier Is Safer Than Human Review
+    source: Hacker News / TechCrunch / The Register
+    url: https://www.theregister.com/2026/08/claude-code-auto-mode-default
+    summary: Anthropic is making auto mode the default for Claude Code Pro, Max, and Team users starting Aug 14, after claiming its classifier blocks 80%+ of dangerous queries while human reviewers catch only ~14%, prompting debate about how much agent autonomy enterprises should grant by default.
+  - title: 'Needle2 — 14MB Agentic LLM for Phones, Wearables, Smart Homes and Robots'
+    source: Hacker News (Show HN #1, 364 pts)
+    url: https://cactuscompute.com/needle
+    summary: Cactus released Needle2, an open Apache-2.0 45M-parameter model compressed to a single 14MB binary that runs a full agentic session in 28MB RAM, hitting 500+ tokens/sec on a Raspberry Pi 5 and fitting on microcontrollers like the ESP32-S3 — the strongest push yet for on-device tool-calling agents.
+  - title: Today's Total Solar Eclipse Draws Open-Source Interactive Maps and Big HN Attention
+    source: Hacker News / NASA SVS / ESA
+    url: https://svs.gsfc.nasa.gov/5647
+    summary: The Aug 12 total solar eclipse — totality crossing Greenland, Iceland, Spain and Portugal — tops HN as open-source interactive maps and NASA/ESA visualizations of the path go viral, a rare sci-comm moment of broad developer interest as space and weather AI also trend this week.
+  - title: Sonic Pi v5 Released — Open-Source Live-Coding Music Environment
+    source: Hacker News / Sonic Pi
+    url: https://github.com/sonic-pi-net/sonic-pi
+    summary: Sam Aaron shipped Sonic Pi v5, the free open-source Ruby-based live-coding music tool, with friendlier error messages, pro-audio config, and new dynamic performance visuals, drawing an active HN thread on code-as-instrument and STEM education.
+  - title: OpenChamber — Open-Source Agentic Dev Environment That Keeps Working While You Sleep
+    source: Hacker News / GitHub
+    url: https://openchamber.dev
+    summary: OpenChamber is a free MIT-licensed agentic development environment built on the OpenCode SDK that runs one task across up to five models, merges the best results, works from GitHub issues to PRs, and supports cron-scheduled prompts — with end-to-end encrypted remote access and no data collection.
+  - title: Zuckerberg Publishes 6,500-Word 'Personal Superintelligence' Manifesto Alongside Muse Glimmer
+    source: Meta / TechCrunch / CBS News
+    url: https://techcrunch.com/2026/08/10/zuckerberg-personal-ai-manifesto
+    summary: Mark Zuckerberg published a 6,500-word manifesto framing Meta AI's open-weight strategy as the path to "personal superintelligence," accompanying the Muse Glimmer release and drawing broad public criticism — tech commentary met with a fast-moving HN discussion on Meta's open vs closed AI pivot.
+  - title: OpenAI Launches Cyber-Trained Model and Expands Its Daybreak AI Defense Program
+    source: TechCrunch / OpenAI
+    url: https://techcrunch.com/2026/08/10/openai-cybersecurity-model-daybreak
+    summary: OpenAI is rolling out a new cyber-trained AI model as part of an expansion of Daybreak, its AI cybersecurity defense initiative, as AI-led attacks multiply and the lab positions itself as an active player in AI-powered defense.
+  - title: OpenAI Cuts GPT-5.6 Luna Prices by 80% as the AI Model Price War Shifts to Cost
+    source: VentureBeat
+    url: https://venturebeat.com/ai/openai-luna-price-cuts
+    summary: OpenAI slashed GPT-5.6 Luna per-token rates by 80%, joining Google (lower prices plus fewer tokens/tool calls) and Anthropic (stronger task performance at same price) as the frontier labs compete less on raw benchmarks and more on cost per useful task.
+  - title: 'Mcptoon — Token-Efficient MCP CLI Client Trends on Show HN'
+    source: Hacker News (Show HN)
+    url: https://github.com/activeing123/mcptoon
+    summary: Mcptoon, a token-efficient Model Context Protocol CLI client, hit the Show HN front page as token-cost optimization continues to shape the MCP/agentic tooling ecosystem this week.
 - date: 2026-08-11
   items:
   - title: Meta Ships Muse Glimmer — 30B Open-Weight Model for Always-On Local Agents
