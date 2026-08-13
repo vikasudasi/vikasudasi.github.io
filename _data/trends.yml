@@ -1,3 +1,25 @@
+- date: 2026-08-13
+  items:
+  - title: Getty Images Launches MCP Server for Licensed Visual Content in AI Workflows
+    source: Getty Images / GlobeNewswire
+    url: https://newsroom.gettyimages.com/en/getty-images/getty-images-launches-mcp-server-to-connect-creative-and-editorial-content-to-ai-workflows-and-products
+    summary: Getty Images (NYSE GETY) launched an MCP server giving developers, enterprise teams and AI platform builders a standardized way to integrate its licensed creative, editorial and archival content into AI-powered workflows, the latest major content owner to expose its catalog through the Model Context Protocol.
+  - title: Skan AI Raises $63M Series C as 'Context Graph of Work' Agents Hit GA
+    source: Skan AI / Business Wire
+    url: https://www.skan.ai/in-the-news/skan-ai-raises-series-c-announcement
+    summary: Skan AI closed a $63M round co-led by Cathay Innovation and Dell Technologies Capital and launched Skan AI Agents and Blueprint to execute autonomously against a continuously-updated "context graph of work" with human oversight — the latest bet that enterprises need real work-context data for reliable agents.
+  - title: Cognition (Devin) Eyes ~$40B Valuation as AI-Coding Funding Heats Up
+    source: PYMNTS / Bloomberg
+    url: https://www.pymnts.com/news/artificial-intelligence/2026/cognition-ai-eyes-40-billion-valuation-from-new-funding
+    summary: Reports say AI-coding startup Cognition, maker of the Devin agent, is in talks to raise at roughly a $40B valuation while Google reportedly discussed a $1.5B+ talent-and-license deal with coding-agent startup Mechanize — underscoring AI coding as the hottest category in the agentic funding boom.
+  - title: CodeRabbit Targets AI-Generated Code Overload With Agentic Change Management
+    source: InfoWorld
+    url: https://www.infoworld.com/article/3910848/coderabbit-targets-ai-generated-code-overload-with-agentic-change-management.html
+    summary: CodeRabbit unveiled Agentic Change Management to help teams triage and review the flood of AI-generated code, as the review-tool maker shifts from detecting machine-written code to managing its sheer volume in busy repos.
+  - title: Malicious LiteLLM Releases Tied to Trivy Hack May Have Exposed 2,100+ Organizations
+    source: The Hacker News
+    url: https://thehackernews.com
+    summary: Researchers tied malicious LiteLLM releases to the earlier Trivy supply-chain compromise, warning that poisoned AI-tooling packages could have exposed more than 2,100 organizations — the latest major supply-chain attack aimed at the AI developer toolchain.
 - date: 2026-08-12
   items:
   - title: Anthropic Flips Claude Code to Auto Mode by Default Aug 14 — Claims Classifier Is Safer Than Human Review
