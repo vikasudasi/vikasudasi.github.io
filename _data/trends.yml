@@ -1,3 +1,45 @@
+- date: 2026-08-16
+  items:
+  - title: Qwen 3.8 Open Weights Drop — 27B Dense and Qwen3.8-Max (2.4T MoE) Hit Hugging Face
+    source: Hugging Face / Hacker News (#2, 1350 pts)
+    url: https://huggingface.co/Qwen/Qwen3.8-27B
+    summary: Alibaba released Qwen3.8-27B and the Qwen3.8-Max 2.4T-A95B weights, the first time a Max-class Qwen model went open-weight, though the Max model card reveals vision and 1M-context features stay cloud-only — sparking both celebration and criticism in a 1350-point HN thread.
+  - title: GLM-5.3 — Frontier Coding With Emergent Cyber Capabilities
+    source: Z.ai / Hacker News (1137 pts)
+    url: https://z.ai/blog/glm-5.3
+    summary: Z.ai released GLM-5.3, a post-training-only upgrade on its 743B base that lifted Terminal-Bench 3.0 from 4.6 to 28.3 and DeepSWE v1.1 from 46.2 to 66.9, and doubled ExploitBench to 54.4% after finding 2,436 vulnerabilities across 269 real projects, with open weights promised within two weeks.
+  - title: Databricks Raises $5B at $190B Valuation for AI-Agent Products
+    source: Reuters / CNBC
+    url: https://www.cnbc.com/2026/08/13/databricks-funding-round-190-billion-valuation.html
+    summary: Databricks closed a $5B strategic round led by Coatue at a $190B valuation — its second $5B raise of 2026 — earmarking funds for Lakebase, a database for AI agents past $100M run-rate, plus Genie and Unity AI Gateway, after crossing a $7B revenue run-rate.
+  - title: VentureBeat Ties GLM-5.3 to a Serious Cursor Vulnerability
+    source: VentureBeat / Agentic.ai
+    url: https://agentic.ai/news
+    summary: A VentureBeat report landing Saturday tied Z.ai's cyber-focused GLM-5.3 to a serious vulnerability in the Cursor editor, raising the question of whether model capability and tool security now collide directly inside the agentic-coding workflow.
+  - title: Firefox Becomes the Last Major Browser Still Supporting uBlock Origin
+    source: PCWorld / Hacker News (#1, 1649 pts)
+    url: https://www.pcworld.com
+    summary: Firefox now stands as the last major browser still fully supporting uBlock Origin, topping HN at 1649 points with 631 comments as the ad-blocking arms race narrows to a single browser.
+  - title: Google Advances Private AI With Homomorphic Encryption
+    source: Google / Hacker News (299 pts)
+    url: https://blog.google
+    summary: Google detailed progress making private AI practical through homomorphic encryption — computation on encrypted data — drawing 299 HN points as confidential-inference techniques move toward real deployments.
+  - title: Auto-Research With Codex Yields a 232x Faster Kernel
+    source: Hacker News (386 pts)
+    url: https://sankalp.bearblog.dev
+    summary: A widely shared write-up describes using OpenAI Codex for auto-research that achieved a 232x faster kernel, landing 386 HN points as agent-driven performance engineering shows concrete results.
+  - title: Debian Begins Voting on the Future of AI/LLM Contributions
+    source: Debian / Hacker News
+    url: https://lists.debian.org
+    summary: Debian has begun voting on how to treat AI/LLM-assisted contributions to the distribution, continuing the wave of major open-source projects formalizing policy on machine-authored code.
+  - title: RustDesk Ships True Unattended Remote Access on Wayland
+    source: RustDesk / GitHub Trending / Hacker News (336 pts)
+    url: https://rustdesk.com
+    summary: RustDesk added true unattended remote access support on Wayland, becoming the #1 GitHub trending repository and drawing 336 HN points as self-hosted remote-desktop alternatives gain momentum.
+  - title: GitKraken Launches GitLens 19 and Finds 96.4% of Orgs Use AI Coding Tools
+    source: GitKraken / Agentic.ai
+    url: https://www.gitkraken.com
+    summary: GitKraken shipped GitLens 19 with a reworked Commit Graph uniting coding, review, coordination, and shipping, alongside its 2026 State of AI in Engineering report finding 96.4% of organizations now use AI coding tools.
 - date: 2026-08-15
   items:
   - title: DeepSeek V4 Pro 0813 GA — Flagship Model Exits Preview with Agent Upgrades
